@@ -1,0 +1,6 @@
+framework module Pods_6bann {
+  umbrella header "Pods-6bann-umbrella.h"
+
+  export *
+  module * { export * }
+}
