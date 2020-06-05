@@ -6,7 +6,9 @@ target '6bann' do
   use_frameworks!
 
   # Pods for 6bann
-pod 'SCLAlertView'
+  pod 'SCLAlertView'
+  pod 'PopupDialog'
+
 
   target '6bannTests' do
     inherit! :search_paths

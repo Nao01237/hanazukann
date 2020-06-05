@@ -7,8 +7,9 @@
 //
 
 import UIKit
-
 import SCLAlertView
+import PopupDialog
+
 
 class ViewController: UIViewController {
     
@@ -31,6 +32,7 @@ class ViewController: UIViewController {
     @IBOutlet var courseLadel: UILabel!
     @IBOutlet var s: UILabel!
     @IBOutlet var t: UILabel!
+    @IBOutlet var u: UILabel!
     
     var index: Int = 0
     
@@ -69,10 +71,11 @@ class ViewController: UIViewController {
         pinkflowerArray.append(Mentor(name: "ヤマボウシ", imageName: "yamaboshi2.jpg", course:  "「友情」", s: "6月中旬～7月中旬", t: "花の観賞期間が長いのが特長", mame:"総苞弁が淡い紅色の品種をベニヤマボウシと呼ぶ"))
         WhiteflowerArray.append(Mentor(name: "ヤマボウシ", imageName: "yamaboshi.jpeg", course:  "「友情」", s: "6月中旬～7月中旬", t: "花の観賞期間が長いのが特長", mame:"開花期間が比較的長"))
         greenflowerArray.append(Mentor(name: "ヒスイカズラ", imageName: "hisuikazura.jpeg", course:  "「私を忘れないで」", s: "３月〜５月", t: "総状花序（そうじょうかじょ）という房に多くの花が連なってなって咲く", mame:"房の長さは50センチ1ｍほど"))
-        
         purpleflowerArray.append(Mentor(name: "アヤメ", imageName: "ayame.jpeg", course:  "「よい便り」", s: "5月", t: "茎の先端に1～3輪の花を咲かせる多年草", mame:"低山から高原の明るい草原に見られる植物"))
+        WhiteflowerArray.append(Mentor(name: "アヤメ", imageName: "ayame2.jpeg", course:  "「よい便り」", s: "5月", t: "茎の先端に1～3輪の花を咲かせる多年草", mame:"低山から高原の明るい草原に見られる植物"))
         
-        purpleflowerArray.append(Mentor(name: "サイネリア", imageName: "saineria.jpg", course:  "「いつも快活」「喜び」", s: "", t: "", mame:""))
+        purpleflowerArray.append(Mentor(name: "シネラリア", imageName: "saineria.jpg", course:  "「いつも快活」「喜び」", s: "11月～5月", t: "", mame:""))
+        
         WhiteflowerArray.append(Mentor(name: "スイートアリッサム", imageName: "sweetaiyssum.jpg", course: "「価値あるもの」", s: "", t: "", mame:""))
         blackflowerArray.append(Mentor(name: "チョコレートコスモス", imageName: "chocoiatecosmos.jpeg", course: "『恋の終わり』『恋の思い出』『移り変わらぬ気持ち』", s: "", t: "", mame:""))
         WhiteflowerArray.append(Mentor(name: "ファレノプシス・アフロディテ", imageName: "fuarenopushisu・afurodeite.jpg", course: "幸福が飛んでやってくる", s: "", t: "", mame:""))
@@ -182,4 +185,6 @@ class ViewController: UIViewController {
     @IBAction func tisiki() {
         SCLAlertView().showNotice("豆知識", subTitle: mametisiki)
     }
+        @IBAction func u() {
+}
 }

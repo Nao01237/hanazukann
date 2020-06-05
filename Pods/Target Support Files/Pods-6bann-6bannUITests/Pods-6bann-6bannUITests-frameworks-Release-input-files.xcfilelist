@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-6bann-6bannUITests/Pods-6bann-6bannUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework
+${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework
 ${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350A175A248A51CB006B30CA /* ayame2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 350A1759248A51CB006B30CA /* ayame2.jpeg */; };
 		354FE6F4246105D0001BE79D /* yagurumagiku.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 354FE6B2246105D0001BE79D /* yagurumagiku.jpeg */; };
 		354FE6F5246105D0001BE79D /* orangeBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 354FE6B3246105D0001BE79D /* orangeBack.png */; };
 		354FE6F6246105D0001BE79D /* himawari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354FE6B4246105D0001BE79D /* himawari.jpg */; };
@@ -116,6 +117,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		350A1759248A51CB006B30CA /* ayame2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ayame2.jpeg; sourceTree = "<group>"; };
 		354FE6B2246105D0001BE79D /* yagurumagiku.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yagurumagiku.jpeg; sourceTree = "<group>"; };
 		354FE6B3246105D0001BE79D /* orangeBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeBack.png; sourceTree = "<group>"; };
 		354FE6B4246105D0001BE79D /* himawari.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = himawari.jpg; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				354FE75624625B28001BE79D /* gazania4.jpeg */,
 				354FE7412461094E001BE79D /* yamaboshi.jpeg */,
 				354FE7422461094E001BE79D /* yamaboshi2.jpg */,
+				350A1759248A51CB006B30CA /* ayame2.jpeg */,
 				354FE6B4246105D0001BE79D /* himawari.jpg */,
 				354FE6B5246105D0001BE79D /* blueBack.png */,
 				354FE6B6246105D0001BE79D /* zeraniumu.jpeg */,
@@ -568,6 +571,7 @@
 				354FE75724625B28001BE79D /* gazania4.jpeg in Resources */,
 				354FE730246105D1001BE79D /* chocoiatecosmos.jpeg in Resources */,
 				354FE6FB246105D0001BE79D /* icon.png in Resources */,
+				350A175A248A51CB006B30CA /* ayame2.jpeg in Resources */,
 				354FE706246105D0001BE79D /* pinkBack.png in Resources */,
 				354FE71B246105D1001BE79D /* musukari.jpeg in Resources */,
 				354FE6FC246105D0001BE79D /* sunodoroppu.jpeg in Resources */,
