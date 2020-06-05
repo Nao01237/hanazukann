@@ -70,7 +70,7 @@ class ViewController: UIViewController {
         WhiteflowerArray.append(Mentor(name: "ヤマボウシ", imageName: "yamaboshi.jpeg", course:  "「友情」", s: "6月中旬～7月中旬", t: "花の観賞期間が長いのが特長", mame:"開花期間が比較的長"))
         greenflowerArray.append(Mentor(name: "ヒスイカズラ", imageName: "hisuikazura.jpeg", course:  "「私を忘れないで」", s: "３月〜５月", t: "総状花序（そうじょうかじょ）という房に多くの花が連なってなって咲く", mame:"房の長さは50センチ1ｍほど"))
         
-        purpleflowerArray.append(Mentor(name: "アヤメ", imageName: "ayame.jpeg", course:  "「よい便り」", s: "", t: "", mame:""))
+        purpleflowerArray.append(Mentor(name: "アヤメ", imageName: "ayame.jpeg", course:  "「よい便り」", s: "5月", t: "茎の先端に1～3輪の花を咲かせる多年草", mame:"低山から高原の明るい草原に見られる植物"))
         
         purpleflowerArray.append(Mentor(name: "サイネリア", imageName: "saineria.jpg", course:  "「いつも快活」「喜び」", s: "", t: "", mame:""))
         WhiteflowerArray.append(Mentor(name: "スイートアリッサム", imageName: "sweetaiyssum.jpg", course: "「価値あるもの」", s: "", t: "", mame:""))
