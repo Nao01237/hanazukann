@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller0-->
         <scene sceneID="BAZ-87-yhe">
             <objects>
-                <viewController id="poH-2P-zj5" sceneMemberID="viewController">
+                <viewController id="poH-2P-zj5" customClass="ViewController0" customModule="花図鑑" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pit-WN-Tyn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,6 +46,9 @@
                                         <state key="normal" title="誕生花">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="tu" destination="poH-2P-zj5" eventType="touchUpInside" id="itk-7A-4yp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.47591265123712367" green="1" blue="0.88951155514074565" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

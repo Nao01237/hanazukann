@@ -21,7 +21,7 @@ class SelectViewController: UIViewController {
     @IBOutlet var  purple: UIButton!
     @IBOutlet var  White: UIButton!
     @IBOutlet var  black: UIButton!
-    
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
         red.layer.masksToBounds = true
@@ -74,6 +74,8 @@ class SelectViewController: UIViewController {
     @IBAction func blackButton() {
         performSegue(withIdentifier: "f", sender: "black")
     }
+    
+  
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let viewController = segue.destination as! ViewController

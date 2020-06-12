@@ -8,7 +8,7 @@
 
 import UIKit
 import SCLAlertView
-import PopupDialog
+
 
 
 class ViewController: UIViewController {
@@ -32,7 +32,6 @@ class ViewController: UIViewController {
     @IBOutlet var courseLadel: UILabel!
     @IBOutlet var s: UILabel!
     @IBOutlet var t: UILabel!
-    @IBOutlet var u: UILabel!
     
     var index: Int = 0
     
@@ -185,6 +184,9 @@ class ViewController: UIViewController {
     @IBAction func tisiki() {
         SCLAlertView().showNotice("豆知識", subTitle: mametisiki)
     }
-        @IBAction func u() {
 }
-}
+
+
+
+
+
