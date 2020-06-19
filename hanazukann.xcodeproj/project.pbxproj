@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		350A175A248A51CB006B30CA /* ayame2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 350A1759248A51CB006B30CA /* ayame2.jpeg */; };
 		350A176224939493006B30CA /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A176124939493006B30CA /* ViewController0.swift */; };
+		354F4FB4249CD0BB000F5409 /* sakura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FA8249CD0BA000F5409 /* sakura.jpg */; };
+		354F4FB5249CD0BB000F5409 /* furijia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FA9249CD0BA000F5409 /* furijia.jpg */; };
+		354F4FB6249CD0BB000F5409 /* daria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FAA249CD0BA000F5409 /* daria.jpg */; };
+		354F4FB7249CD0BB000F5409 /* poinsechia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FAB249CD0BA000F5409 /* poinsechia.jpg */; };
+		354F4FB8249CD0BB000F5409 /* churippu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FAC249CD0BA000F5409 /* churippu.jpg */; };
+		354F4FB9249CD0BB000F5409 /* gabera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FAD249CD0BA000F5409 /* gabera.jpg */; };
+		354F4FBA249CD0BB000F5409 /* bara tuki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FAE249CD0BA000F5409 /* bara tuki.jpg */; };
+		354F4FBB249CD0BB000F5409 /* shimbijiumu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FAF249CD0BB000F5409 /* shimbijiumu.jpg */; };
+		354F4FBC249CD0BB000F5409 /* himawari tuki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FB0249CD0BB000F5409 /* himawari tuki.jpg */; };
+		354F4FBD249CD0BB000F5409 /* suzuran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FB1249CD0BB000F5409 /* suzuran.jpg */; };
+		354F4FBE249CD0BB000F5409 /* yuri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FB2249CD0BB000F5409 /* yuri.jpg */; };
+		354F4FBF249CD0BB000F5409 /* shikuramen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FB3249CD0BB000F5409 /* shikuramen.jpg */; };
 		354FE6F4246105D0001BE79D /* yagurumagiku.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 354FE6B2246105D0001BE79D /* yagurumagiku.jpeg */; };
 		354FE6F5246105D0001BE79D /* orangeBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 354FE6B3246105D0001BE79D /* orangeBack.png */; };
 		354FE6F6246105D0001BE79D /* himawari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354FE6B4246105D0001BE79D /* himawari.jpg */; };
@@ -120,6 +132,18 @@
 /* Begin PBXFileReference section */
 		350A1759248A51CB006B30CA /* ayame2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ayame2.jpeg; sourceTree = "<group>"; };
 		350A176124939493006B30CA /* ViewController0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
+		354F4FA8249CD0BA000F5409 /* sakura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sakura.jpg; sourceTree = "<group>"; };
+		354F4FA9249CD0BA000F5409 /* furijia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = furijia.jpg; sourceTree = "<group>"; };
+		354F4FAA249CD0BA000F5409 /* daria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daria.jpg; sourceTree = "<group>"; };
+		354F4FAB249CD0BA000F5409 /* poinsechia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poinsechia.jpg; sourceTree = "<group>"; };
+		354F4FAC249CD0BA000F5409 /* churippu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = churippu.jpg; sourceTree = "<group>"; };
+		354F4FAD249CD0BA000F5409 /* gabera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gabera.jpg; sourceTree = "<group>"; };
+		354F4FAE249CD0BA000F5409 /* bara tuki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bara tuki.jpg"; sourceTree = "<group>"; };
+		354F4FAF249CD0BB000F5409 /* shimbijiumu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shimbijiumu.jpg; sourceTree = "<group>"; };
+		354F4FB0249CD0BB000F5409 /* himawari tuki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "himawari tuki.jpg"; sourceTree = "<group>"; };
+		354F4FB1249CD0BB000F5409 /* suzuran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suzuran.jpg; sourceTree = "<group>"; };
+		354F4FB2249CD0BB000F5409 /* yuri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yuri.jpg; sourceTree = "<group>"; };
+		354F4FB3249CD0BB000F5409 /* shikuramen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shikuramen.jpg; sourceTree = "<group>"; };
 		354FE6B2246105D0001BE79D /* yagurumagiku.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yagurumagiku.jpeg; sourceTree = "<group>"; };
 		354FE6B3246105D0001BE79D /* orangeBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeBack.png; sourceTree = "<group>"; };
 		354FE6B4246105D0001BE79D /* himawari.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = himawari.jpg; sourceTree = "<group>"; };
@@ -251,88 +275,187 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		354F4F9D249CC641000F5409 /* Red */ = {
+			isa = PBXGroup;
+			children = (
+				354FE6D4246105D0001BE79D /* redBack.png */,
+				354FE6CB246105D0001BE79D /* odontogurossamu.jpg */,
+				354FE75624625B28001BE79D /* gazania4.jpeg */,
+				354FE6BD246105D0001BE79D /* abuchironn.jpg */,
+				354FE6CF246105D0001BE79D /* amaririu.jpeg */,
+				354FE6CE246105D0001BE79D /* higambana.jpg */,
+				354FE6C1246105D0001BE79D /* akabara.jpg */,
+				354FE6B6246105D0001BE79D /* zeraniumu.jpeg */,
+				354FE73C2461094D001BE79D /* abuchiron1.jpeg */,
+			);
+			path = Red;
+			sourceTree = "<group>";
+		};
+		354F4F9E249CC65A000F5409 /* Blue */ = {
+			isa = PBXGroup;
+			children = (
+				354FE6F1246105D0001BE79D /* nemofira.jpg */,
+				354FE6F3246105D0001BE79D /* aobara.jpeg */,
+				354FE6B2246105D0001BE79D /* yagurumagiku.jpeg */,
+				354FE6C8246105D0001BE79D /* hisuikazura.jpeg */,
+				354FE6B5246105D0001BE79D /* blueBack.png */,
+				354FE6C3246105D0001BE79D /* bluestar.jpg */,
+				354FE73A2461094D001BE79D /* musukari１.jpg */,
+			);
+			path = Blue;
+			sourceTree = "<group>";
+		};
+		354F4F9F249CC685000F5409 /* Yellow */ = {
+			isa = PBXGroup;
+			children = (
+				354FE6F2246105D0001BE79D /* enishida.jpeg */,
+				354FE6EA246105D0001BE79D /* kibara.jpeg */,
+				354FE6E1246105D0001BE79D /* hageito.jpeg */,
+				354FE6DE246105D0001BE79D /* yellowBack.png */,
+				354FE6D7246105D0001BE79D /* icho.jpg */,
+				354FE6B4246105D0001BE79D /* himawari.jpg */,
+				354FE6CC246105D0001BE79D /* gazania.jpg */,
+				354FE6D8246105D0001BE79D /* tannpopo.jpg */,
+				354FE6D5246105D0001BE79D /* fukujuso.jpeg */,
+				354FE73B2461094D001BE79D /* amaririsu3.jpg */,
+			);
+			path = Yellow;
+			sourceTree = "<group>";
+		};
+		354F4FA0249CC72D000F5409 /* Pink */ = {
+			isa = PBXGroup;
+			children = (
+				354FE6ED246105D0001BE79D /* someiyoshino.jpeg */,
+				354FE6E0246105D0001BE79D /* yaezakura.jpeg */,
+				354FE6DB246105D0001BE79D /* shdarezakura.jpg */,
+				354FE6D6246105D0001BE79D /* pinkbara.jpg */,
+				354FE6D0246105D0001BE79D /* arumeria.jpg */,
+				354FE73D2461094D001BE79D /* abuchiron2.jpg */,
+				354FE6C4246105D0001BE79D /* pinkBack.png */,
+				354FE6C0246105D0001BE79D /* anzu.jpg */,
+				354FE7422461094E001BE79D /* yamaboshi2.jpg */,
+				354FE7382461094D001BE79D /* amaririsu2.jpg */,
+				354FE73E2461094D001BE79D /* gazania3.jpg */,
+			);
+			path = Pink;
+			sourceTree = "<group>";
+		};
+		354F4FA1249CC755000F5409 /* Orange */ = {
+			isa = PBXGroup;
+			children = (
+				354FE6EF246105D0001BE79D /* sandasonia.jpeg */,
+				354FE7402461094D001BE79D /* gazania2.jpg */,
+				354FE6C9246105D0001BE79D /* orangebara.jpg */,
+				354FE6B3246105D0001BE79D /* orangeBack.png */,
+			);
+			path = Orange;
+			sourceTree = "<group>";
+		};
+		354F4FA2249CC770000F5409 /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				354FE6E2246105D0001BE79D /* greenBack.png */,
+				354FE6DD246105D0001BE79D /* midoribara.jpg */,
+				354FE6E5246105D0001BE79D /* baimo.jpg */,
+				354FE752246258E6001BE79D /* yamaboshi1.jpg */,
+			);
+			path = Green;
+			sourceTree = "<group>";
+		};
+		354F4FA3249CC784000F5409 /* Purple */ = {
+			isa = PBXGroup;
+			children = (
+				354FE6E7246105D0001BE79D /* purpleBack.png */,
+				354FE6DF246105D0001BE79D /* buruberu.jpg */,
+				350A1759248A51CB006B30CA /* ayame2.jpeg */,
+				354FE6C7246105D0001BE79D /* sumire.jpeg */,
+				354FE6EC246105D0001BE79D /* ayame.jpeg */,
+				354FE6D1246105D0001BE79D /* rabenda.jpeg */,
+				354FE6D3246105D0001BE79D /* berufurawa.jpg */,
+				354FE6D9246105D0001BE79D /* musukari.jpeg */,
+				354FE6BE246105D0001BE79D /* papururozu.jpeg */,
+				354FE6D2246105D0001BE79D /* kurokkasu.jpg */,
+				354FE6BC246105D0001BE79D /* saineria.jpg */,
+			);
+			path = Purple;
+			sourceTree = "<group>";
+		};
+		354F4FA4249CC79C000F5409 /* White */ = {
+			isa = PBXGroup;
+			children = (
+				354FE6E9246105D0001BE79D /* sunofureku.jpg */,
+				354FE6E6246105D0001BE79D /* WhiteBack.png */,
+				354FE6DC246105D0001BE79D /* fuarenopushisu・afurodeite.jpg */,
+				354FE73F2461094D001BE79D /* gazania1.jpg */,
+				354FE7412461094E001BE79D /* yamaboshi.jpeg */,
+				354FE6B8246105D0001BE79D /* sweetaiyssum.jpg */,
+				354FE6B7246105D0001BE79D /* yamaboushi.jpeg */,
+				354FE6BA246105D0001BE79D /* sunodoroppu.jpeg */,
+				354FE6C5246105D0001BE79D /* shirobara.jpg */,
+				354FE7392461094D001BE79D /* musukari2.jpg */,
+				354FE6CD246105D0001BE79D /*  jasumin.jpeg */,
+				354FE75024610D73001BE79D /* amaririsu１.jpg */,
+			);
+			path = White;
+			sourceTree = "<group>";
+		};
+		354F4FA5249CC7A5000F5409 /* Black */ = {
+			isa = PBXGroup;
+			children = (
+				354FE6F0246105D0001BE79D /* kurobara.jpeg */,
+				354FE6EE246105D0001BE79D /* chocoiatecosmos.jpeg */,
+				354FE6E3246105D0001BE79D /* blackBack.png */,
+			);
+			path = Black;
+			sourceTree = "<group>";
+		};
+		354F4FA6249CCD88000F5409 /* Interface_images */ = {
+			isa = PBXGroup;
+			children = (
+				354FE6B9246105D0001BE79D /* icon.png */,
+				354FE6C2246105D0001BE79D /* 無題129_20200117194637.png */,
+				354FE6CA246105D0001BE79D /* 無題98_20200117184854.png */,
+				354FE6DA246105D0001BE79D /* furijia(asagizuisen).webp */,
+				354FE75824630259001BE79D /* 無題193_20200506233218.png */,
+				354FE6E4246105D0001BE79D /* a.png */,
+				354FE6E8246105D0001BE79D /* 無題132_20200110193021.png */,
+				354FE6EB246105D0001BE79D /* 無題98_20200117192732.png */,
+			);
+			path = Interface_images;
+			sourceTree = "<group>";
+		};
+		354F4FA7249CCDA3000F5409 /* Birth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Birth;
+			sourceTree = "<group>";
+		};
 		354FE6B1246105D0001BE79D /* flower_images */ = {
 			isa = PBXGroup;
 			children = (
-				354FE6B2246105D0001BE79D /* yagurumagiku.jpeg */,
-				354FE6B3246105D0001BE79D /* orangeBack.png */,
-				354FE73C2461094D001BE79D /* abuchiron1.jpeg */,
-				354FE73D2461094D001BE79D /* abuchiron2.jpg */,
-				354FE7382461094D001BE79D /* amaririsu2.jpg */,
-				354FE73B2461094D001BE79D /* amaririsu3.jpg */,
-				354FE75024610D73001BE79D /* amaririsu１.jpg */,
-				354FE73F2461094D001BE79D /* gazania1.jpg */,
-				354FE7402461094D001BE79D /* gazania2.jpg */,
-				354FE73E2461094D001BE79D /* gazania3.jpg */,
-				354FE752246258E6001BE79D /* yamaboshi1.jpg */,
-				354FE73A2461094D001BE79D /* musukari１.jpg */,
-				354FE7392461094D001BE79D /* musukari2.jpg */,
-				354FE75624625B28001BE79D /* gazania4.jpeg */,
-				354FE7412461094E001BE79D /* yamaboshi.jpeg */,
-				354FE7422461094E001BE79D /* yamaboshi2.jpg */,
-				350A1759248A51CB006B30CA /* ayame2.jpeg */,
-				354FE6B4246105D0001BE79D /* himawari.jpg */,
-				354FE6B5246105D0001BE79D /* blueBack.png */,
-				354FE6B6246105D0001BE79D /* zeraniumu.jpeg */,
-				354FE6B7246105D0001BE79D /* yamaboushi.jpeg */,
-				354FE6B8246105D0001BE79D /* sweetaiyssum.jpg */,
-				354FE6B9246105D0001BE79D /* icon.png */,
-				354FE6BA246105D0001BE79D /* sunodoroppu.jpeg */,
-				354FE6BC246105D0001BE79D /* saineria.jpg */,
-				354FE6BD246105D0001BE79D /* abuchironn.jpg */,
-				354FE6BE246105D0001BE79D /* papururozu.jpeg */,
-				354FE6C0246105D0001BE79D /* anzu.jpg */,
-				354FE6C1246105D0001BE79D /* akabara.jpg */,
-				354FE6C2246105D0001BE79D /* 無題129_20200117194637.png */,
-				354FE6C3246105D0001BE79D /* bluestar.jpg */,
-				354FE6C4246105D0001BE79D /* pinkBack.png */,
-				354FE6C5246105D0001BE79D /* shirobara.jpg */,
-				354FE6C7246105D0001BE79D /* sumire.jpeg */,
-				354FE6C8246105D0001BE79D /* hisuikazura.jpeg */,
-				354FE6C9246105D0001BE79D /* orangebara.jpg */,
-				354FE6CA246105D0001BE79D /* 無題98_20200117184854.png */,
-				354FE6CB246105D0001BE79D /* odontogurossamu.jpg */,
-				354FE6CC246105D0001BE79D /* gazania.jpg */,
-				354FE6CD246105D0001BE79D /*  jasumin.jpeg */,
-				354FE6CE246105D0001BE79D /* higambana.jpg */,
-				354FE6CF246105D0001BE79D /* amaririu.jpeg */,
-				354FE6D0246105D0001BE79D /* arumeria.jpg */,
-				354FE6D1246105D0001BE79D /* rabenda.jpeg */,
-				354FE6D2246105D0001BE79D /* kurokkasu.jpg */,
-				354FE6D3246105D0001BE79D /* berufurawa.jpg */,
-				354FE6D4246105D0001BE79D /* redBack.png */,
-				354FE6D5246105D0001BE79D /* fukujuso.jpeg */,
-				354FE6D6246105D0001BE79D /* pinkbara.jpg */,
-				354FE6D7246105D0001BE79D /* icho.jpg */,
-				354FE6D8246105D0001BE79D /* tannpopo.jpg */,
-				354FE6D9246105D0001BE79D /* musukari.jpeg */,
-				354FE6DA246105D0001BE79D /* furijia(asagizuisen).webp */,
-				354FE75824630259001BE79D /* 無題193_20200506233218.png */,
-				354FE6DB246105D0001BE79D /* shdarezakura.jpg */,
-				354FE6DC246105D0001BE79D /* fuarenopushisu・afurodeite.jpg */,
-				354FE6DD246105D0001BE79D /* midoribara.jpg */,
-				354FE6DE246105D0001BE79D /* yellowBack.png */,
-				354FE6DF246105D0001BE79D /* buruberu.jpg */,
-				354FE6E0246105D0001BE79D /* yaezakura.jpeg */,
-				354FE6E1246105D0001BE79D /* hageito.jpeg */,
-				354FE6E2246105D0001BE79D /* greenBack.png */,
-				354FE6E3246105D0001BE79D /* blackBack.png */,
-				354FE6E4246105D0001BE79D /* a.png */,
-				354FE6E5246105D0001BE79D /* baimo.jpg */,
-				354FE6E6246105D0001BE79D /* WhiteBack.png */,
-				354FE6E7246105D0001BE79D /* purpleBack.png */,
-				354FE6E8246105D0001BE79D /* 無題132_20200110193021.png */,
-				354FE6E9246105D0001BE79D /* sunofureku.jpg */,
-				354FE6EA246105D0001BE79D /* kibara.jpeg */,
-				354FE6EB246105D0001BE79D /* 無題98_20200117192732.png */,
-				354FE6EC246105D0001BE79D /* ayame.jpeg */,
-				354FE6ED246105D0001BE79D /* someiyoshino.jpeg */,
-				354FE6EE246105D0001BE79D /* chocoiatecosmos.jpeg */,
-				354FE6EF246105D0001BE79D /* sandasonia.jpeg */,
-				354FE6F0246105D0001BE79D /* kurobara.jpeg */,
-				354FE6F1246105D0001BE79D /* nemofira.jpg */,
-				354FE6F2246105D0001BE79D /* enishida.jpeg */,
-				354FE6F3246105D0001BE79D /* aobara.jpeg */,
+				354F4FAE249CD0BA000F5409 /* bara tuki.jpg */,
+				354F4FAC249CD0BA000F5409 /* churippu.jpg */,
+				354F4FAA249CD0BA000F5409 /* daria.jpg */,
+				354F4FA9249CD0BA000F5409 /* furijia.jpg */,
+				354F4FAD249CD0BA000F5409 /* gabera.jpg */,
+				354F4FB0249CD0BB000F5409 /* himawari tuki.jpg */,
+				354F4FAB249CD0BA000F5409 /* poinsechia.jpg */,
+				354F4FA8249CD0BA000F5409 /* sakura.jpg */,
+				354F4FB3249CD0BB000F5409 /* shikuramen.jpg */,
+				354F4FAF249CD0BB000F5409 /* shimbijiumu.jpg */,
+				354F4FB1249CD0BB000F5409 /* suzuran.jpg */,
+				354F4FB2249CD0BB000F5409 /* yuri.jpg */,
+				354F4FA7249CCDA3000F5409 /* Birth */,
+				354F4FA5249CC7A5000F5409 /* Black */,
+				354F4FA4249CC79C000F5409 /* White */,
+				354F4FA3249CC784000F5409 /* Purple */,
+				354F4FA2249CC770000F5409 /* Green */,
+				354F4FA1249CC755000F5409 /* Orange */,
+				354F4FA0249CC72D000F5409 /* Pink */,
+				354F4F9F249CC685000F5409 /* Yellow */,
+				354F4F9E249CC65A000F5409 /* Blue */,
+				354F4F9D249CC641000F5409 /* Red */,
 			);
 			path = flower_images;
 			sourceTree = SOURCE_ROOT;
@@ -385,6 +508,7 @@
 		FC888DB122CF558D00D5B346 /* 6bann */ = {
 			isa = PBXGroup;
 			children = (
+				354F4FA6249CCD88000F5409 /* Interface_images */,
 				354FE6B1246105D0001BE79D /* flower_images */,
 				FC888DB222CF558D00D5B346 /* AppDelegate.swift */,
 				FC09815A236C4AB100D1CFD1 /* SelectViewController.swift */,
@@ -526,6 +650,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354F4FBD249CD0BB000F5409 /* suzuran.jpg in Resources */,
 				354FE6F7246105D0001BE79D /* blueBack.png in Resources */,
 				354FE74D2461094E001BE79D /* yamaboshi.jpeg in Resources */,
 				354FE72E246105D1001BE79D /* ayame.jpeg in Resources */,
@@ -544,13 +669,18 @@
 				354FE72D246105D1001BE79D /* 無題98_20200117192732.png in Resources */,
 				354FE70B246105D1001BE79D /* orangebara.jpg in Resources */,
 				354FE6F8246105D0001BE79D /* zeraniumu.jpeg in Resources */,
+				354F4FBF249CD0BB000F5409 /* shikuramen.jpg in Resources */,
 				354FE735246105D1001BE79D /* aobara.jpeg in Resources */,
+				354F4FBC249CD0BB000F5409 /* himawari tuki.jpg in Resources */,
 				354FE702246105D0001BE79D /* anzu.jpg in Resources */,
+				354F4FB5249CD0BB000F5409 /* furijia.jpg in Resources */,
 				354FE74A2461094E001BE79D /* gazania3.jpg in Resources */,
 				354FE700246105D0001BE79D /* papururozu.jpeg in Resources */,
+				354F4FBA249CD0BB000F5409 /* bara tuki.jpg in Resources */,
 				354FE725246105D1001BE79D /* blackBack.png in Resources */,
 				354FE6F4246105D0001BE79D /* yagurumagiku.jpeg in Resources */,
 				354FE707246105D0001BE79D /* shirobara.jpg in Resources */,
+				354F4FB7249CD0BB000F5409 /* poinsechia.jpg in Resources */,
 				354FE726246105D1001BE79D /* a.png in Resources */,
 				354FE6FA246105D0001BE79D /* sweetaiyssum.jpg in Resources */,
 				354FE733246105D1001BE79D /* nemofira.jpg in Resources */,
@@ -558,9 +688,12 @@
 				354FE70A246105D1001BE79D /* hisuikazura.jpeg in Resources */,
 				354FE6F5246105D0001BE79D /* orangeBack.png in Resources */,
 				354FE72B246105D1001BE79D /* sunofureku.jpg in Resources */,
+				354F4FB4249CD0BB000F5409 /* sakura.jpg in Resources */,
 				354FE753246258E6001BE79D /* yamaboshi1.jpg in Resources */,
 				354FE74C2461094E001BE79D /* gazania2.jpg in Resources */,
+				354F4FBE249CD0BB000F5409 /* yuri.jpg in Resources */,
 				354FE7452461094E001BE79D /* musukari2.jpg in Resources */,
+				354F4FB6249CD0BB000F5409 /* daria.jpg in Resources */,
 				354FE715246105D1001BE79D /* berufurawa.jpg in Resources */,
 				354FE717246105D1001BE79D /* fukujuso.jpeg in Resources */,
 				354FE704246105D0001BE79D /* 無題129_20200117194637.png in Resources */,
@@ -569,6 +702,7 @@
 				354FE709246105D1001BE79D /* sumire.jpeg in Resources */,
 				354FE712246105D1001BE79D /* arumeria.jpg in Resources */,
 				354FE734246105D1001BE79D /* enishida.jpeg in Resources */,
+				354F4FBB249CD0BB000F5409 /* shimbijiumu.jpg in Resources */,
 				354FE70D246105D1001BE79D /* odontogurossamu.jpg in Resources */,
 				354FE722246105D1001BE79D /* yaezakura.jpeg in Resources */,
 				354FE721246105D1001BE79D /* buruberu.jpg in Resources */,
@@ -587,6 +721,7 @@
 				354FE718246105D1001BE79D /* pinkbara.jpg in Resources */,
 				354FE72C246105D1001BE79D /* kibara.jpeg in Resources */,
 				354FE724246105D1001BE79D /* greenBack.png in Resources */,
+				354F4FB8249CD0BB000F5409 /* churippu.jpg in Resources */,
 				354FE71F246105D1001BE79D /* midoribara.jpg in Resources */,
 				354FE7442461094E001BE79D /* amaririsu2.jpg in Resources */,
 				354FE6F6246105D0001BE79D /* himawari.jpg in Resources */,
@@ -602,6 +737,7 @@
 				354FE711246105D1001BE79D /* amaririu.jpeg in Resources */,
 				354FE729246105D1001BE79D /* purpleBack.png in Resources */,
 				354FE732246105D1001BE79D /* kurobara.jpeg in Resources */,
+				354F4FB9249CD0BB000F5409 /* gabera.jpg in Resources */,
 				354FE70F246105D1001BE79D /*  jasumin.jpeg in Resources */,
 				354FE705246105D0001BE79D /* bluestar.jpg in Resources */,
 				354FE7462461094E001BE79D /* musukari１.jpg in Resources */,
