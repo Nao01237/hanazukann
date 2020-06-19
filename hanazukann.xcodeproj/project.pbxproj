@@ -427,13 +427,6 @@
 		354F4FA7249CCDA3000F5409 /* Birth */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Birth;
-			sourceTree = "<group>";
-		};
-		354FE6B1246105D0001BE79D /* flower_images */ = {
-			isa = PBXGroup;
-			children = (
 				354F4FAE249CD0BA000F5409 /* bara tuki.jpg */,
 				354F4FAC249CD0BA000F5409 /* churippu.jpg */,
 				354F4FAA249CD0BA000F5409 /* daria.jpg */,
@@ -446,6 +439,13 @@
 				354F4FAF249CD0BB000F5409 /* shimbijiumu.jpg */,
 				354F4FB1249CD0BB000F5409 /* suzuran.jpg */,
 				354F4FB2249CD0BB000F5409 /* yuri.jpg */,
+			);
+			path = Birth;
+			sourceTree = "<group>";
+		};
+		354FE6B1246105D0001BE79D /* flower_images */ = {
+			isa = PBXGroup;
+			children = (
 				354F4FA7249CCDA3000F5409 /* Birth */,
 				354F4FA5249CC7A5000F5409 /* Black */,
 				354F4FA4249CC79C000F5409 /* White */,
