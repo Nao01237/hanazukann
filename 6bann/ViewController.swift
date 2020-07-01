@@ -38,7 +38,82 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        nameLabel.adjustsFontSizeToFitWidth = true
+        courseLadel.adjustsFontSizeToFitWidth = true
+        s.adjustsFontSizeToFitWidth = true
+        t.adjustsFontSizeToFitWidth = true
         
+        setupFlowerArrays()
+        
+        if flowerColor == "red"{
+            flowerArray = redflowerArray
+        }
+        if flowerColor == "blue"{
+            flowerArray = blueflowerArray
+        }
+        if flowerColor == "yellow"{
+            flowerArray = yellowflowerArray
+        }
+        if flowerColor == "pink"{
+            flowerArray = pinkflowerArray
+        }
+        if flowerColor == "orange"{
+            flowerArray = orangeflowerArray
+        }
+        if flowerColor == "green"{
+            flowerArray = greenflowerArray
+        }
+        if flowerColor == "purple"{
+            flowerArray = purpleflowerArray
+        }
+        if flowerColor == "White"{
+            flowerArray = WhiteflowerArray
+        }
+        if flowerColor == "black"{
+            flowerArray = blackflowerArray
+        }
+        
+        setUI()
+    }
+    
+    func setUI() {
+        imageView.image = flowerArray[index].getImage()
+        nameLabel.text = flowerArray[index].name
+        courseLadel.text = flowerArray[index].course
+        s.text = flowerArray[index].s
+        t.text = flowerArray[index].t
+        mametisiki = flowerArray[index].mame
+    }
+    
+    @IBAction func mae() {
+        if index  == 0 {
+            index = flowerArray.count - 1
+        }
+        else {
+            index = index - 1
+        }
+        setUI()
+    }
+    
+    @IBAction func tugi() {
+        if index == flowerArray.count - 1 {
+            index = 0
+        }
+        else {
+            index = index + 1
+        }
+        setUI()
+    }
+    
+    @IBAction func modoru() {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func tisiki() {
+        SCLAlertView().showNotice("豆知識", subTitle: mametisiki)
+    }
+    
+    func setupFlowerArrays() {
         pinkflowerArray.append(Mentor(name: "ソメイヨシノ", imageName: "someiyoshino.jpeg", course: "「純潔」「優れた美人」", s: "3月下旬〜5月上旬", t: "ソメイヨシノはエドヒガン系のサクラ（桜）と、日本固有種のオオシマザクラの雑種の交配で生まれた日本産の園芸品種のサクラ", mame:"桜にはたくさんの種類がありますが、開花予想に使われる木の大半はソメイヨシノ"))
         pinkflowerArray.append(Mentor(name: "ヤエザクラ", imageName: "yaezakura.jpeg", course: "「しとやか」「豊かな教養」「善良な教育」", s: "4月中旬～5月上旬頃", t: "バラ科サクラ属の落葉広葉樹で、花びらがたくさんある桜の総称。通常の桜の花びらは5枚なのに対し、八重桜は何枚もの花びらを重ねてつける", mame:"ヤエザクラ（八重桜）は一つのサクラの品種ではなく、サクラの中でも八重咲きになるものの総称"))
         pinkflowerArray.append(Mentor(name: "シダレザクラ", imageName: "shdarezakura.jpg", course: "「優美、円熟した美人」「ごまかし」", s: "3月下旬～4月", t: "小輪の一重咲きで、花の色は白か淡い紅色。", mame:"昔、桜は縁起が悪いものとされていた"))
@@ -104,85 +179,6 @@ class ViewController: UIViewController {
         WhiteflowerArray.append(Mentor(name: "スノーフレーク", imageName: "sunofureku.jpg", course: "「純粋」「汚れなき心」「慈愛」「美」「皆を惹きつける魅力」", s: "", t: "", mame:""))
         orangeflowerArray.append(Mentor(name: "サンダーソニア", imageName: "sandasonia.jpeg", course:  "「福音」「祝福」「祈り」「信頼」「共感」「可憐」「愛らしい」「望郷」「励まし」「祝福の音色」", s: "", t: "", mame:""))
         purpleflowerArray.append(Mentor(name: "デルフィニウム", imageName: "rabenda.jpeg", course:  "「あなたは幸福をふりまく」「誰もがあなたを慰める」", s: "", t: "", mame:""))
-        
-        
-        
-        if flowerColor == "red"{
-            flowerArray = redflowerArray
-        }
-        if flowerColor == "blue"{
-            flowerArray = blueflowerArray
-            
-        }
-        if flowerColor == "yellow"{
-            flowerArray = yellowflowerArray
-        }
-        if flowerColor == "pink"{
-            flowerArray = pinkflowerArray
-            
-        }
-        if flowerColor == "orange"{
-            flowerArray = orangeflowerArray
-        }
-        if flowerColor == "green"{
-            flowerArray = greenflowerArray
-            
-        }
-        if flowerColor == "purple"{
-            flowerArray = purpleflowerArray
-            
-        }
-        if flowerColor == "White"{
-            flowerArray = WhiteflowerArray
-            
-        }
-        if flowerColor == "black"{
-            flowerArray = blackflowerArray
-        }
-        
-        setUI()
-        
-    }
-    
-    func setUI() {
-        imageView.image = flowerArray[index].getImage()
-        nameLabel.text = flowerArray[index].name
-        courseLadel.text = flowerArray[index].course
-        s.text = flowerArray[index].s
-        t.text = flowerArray[index].t
-        mametisiki = flowerArray[index].mame
-    
-    }
-    
-    @IBAction func mae() {
-        if index  == 0 {
-            index = flowerArray.count - 1
-        }
-        else {
-            index = index - 1
-            
-        }
-        setUI()
-    }
-    
-    @IBAction func tugi() {
-        if index == flowerArray.count - 1 {
-            index = 0
-        }
-        else {
-            index = index + 1
-        }
-        setUI()
-        
-    }
-    
-    @IBAction func modoru() {
-        self.dismiss(animated: true, completion: nil)
-        
-        
-    }
-    @IBAction func tisiki() {
-        SCLAlertView().showNotice("豆知識", subTitle: mametisiki)
     }
 }
 

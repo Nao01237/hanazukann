@@ -513,11 +513,11 @@
 				FC888DB222CF558D00D5B346 /* AppDelegate.swift */,
 				FC09815A236C4AB100D1CFD1 /* SelectViewController.swift */,
 				FC888DB422CF558D00D5B346 /* ViewController.swift */,
+				350A176124939493006B30CA /* ViewController0.swift */,
 				FC888DB622CF558D00D5B346 /* Main.storyboard */,
 				FC888DB922CF558F00D5B346 /* Assets.xcassets */,
 				FC888DBE22CF558F00D5B346 /* Info.plist */,
 				FC888DE722CF5DD300D5B346 /* Mentor.swift */,
-				350A176124939493006B30CA /* ViewController0.swift */,
 			);
 			path = 6bann;
 			sourceTree = "<group>";

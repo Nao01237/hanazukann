@@ -21,7 +21,7 @@ class SelectViewController: UIViewController {
     @IBOutlet var  purple: UIButton!
     @IBOutlet var  White: UIButton!
     @IBOutlet var  black: UIButton!
- 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         red.layer.masksToBounds = true
@@ -41,9 +41,7 @@ class SelectViewController: UIViewController {
         White.layer.masksToBounds = true
         White.layer.cornerRadius = 20
         black.layer.masksToBounds = true
-        black.layer.cornerRadius = 20
-        
-        // Do any additional setup after loading the view.
+        black.layer.cornerRadius = 20        
     }
     
     
@@ -75,13 +73,13 @@ class SelectViewController: UIViewController {
         performSegue(withIdentifier: "f", sender: "black")
     }
     
-  
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let viewController = segue.destination as! ViewController
         viewController.flowerColor = (sender as! String)
     }
-   
+    
 }
 
 
