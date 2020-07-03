@@ -16,13 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Two-Np-Prh">
-                                <rect key="frame" x="-18" y="0.0" width="432" height="910"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Two-Np-Prh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題98_20200117192732.png" translatesAutoresizingMaskIntoConstraints="NO" id="WJO-3U-nrp">
-                                        <rect key="frame" x="31" y="247" width="370" height="320"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="無題98_20200117192732.png" translatesAutoresizingMaskIntoConstraints="NO" id="WJO-3U-nrp">
+                                        <rect key="frame" x="22" y="288" width="370" height="320"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題145_20200703192504.png" translatesAutoresizingMaskIntoConstraints="NO" id="11V-Wt-sU0">
                                         <rect key="frame" x="259" y="178" width="109" height="107"/>
@@ -44,28 +42,25 @@
                                         <rect key="frame" x="259" y="488" width="295" height="229"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題146_20200703193202.png" translatesAutoresizingMaskIntoConstraints="NO" id="ouT-1S-ENq">
-                                        <rect key="frame" x="-149" y="340" width="364" height="199"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題146_20200703193202.png" translatesAutoresizingMaskIntoConstraints="NO" id="OYH-1B-0CH">
                                         <rect key="frame" x="-117" y="720" width="485" height="320"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題143_20200703191926.png" translatesAutoresizingMaskIntoConstraints="NO" id="lWv-ig-OcZ">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="無題143_20200703191926.png" translatesAutoresizingMaskIntoConstraints="NO" id="lWv-ig-OcZ">
                                         <rect key="frame" x="142" y="684" width="366" height="210"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="366" id="ifk-xJ-16C"/>
+                                            <constraint firstAttribute="height" constant="210" id="x1E-Dd-W7G"/>
+                                        </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="花図鑑" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nR8-uc-jgK">
-                                        <rect key="frame" x="151" y="150" width="129" height="57"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="花図鑑" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nR8-uc-jgK">
+                                        <rect key="frame" x="142.5" y="213" width="129" height="57"/>
                                         <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="43"/>
                                         <color key="textColor" red="0.86207461760000004" green="0.5807206224" blue="0.50907046369999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsh-lU-hmN">
-                                        <rect key="frame" x="187" y="697" width="57" height="43"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsh-lU-hmN">
+                                        <rect key="frame" x="178.5" y="697" width="57" height="43"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="19"/>
                                         <state key="normal" title="始める">
                                             <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -74,9 +69,8 @@
                                             <segue destination="YIc-HC-CSV" kind="presentation" modalPresentationStyle="fullScreen" id="6xZ-nJ-qJk"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gh-l2-4EU">
-                                        <rect key="frame" x="207" y="684" width="225" height="225"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gh-l2-4EU">
+                                        <rect key="frame" x="298" y="777" width="56" height="34"/>
                                         <state key="normal" title="誕生花">
                                             <color key="titleColor" red="0.2788023744" green="0.37394737360000002" blue="0.98534387349999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
@@ -84,11 +78,33 @@
                                             <action selector="tu" destination="poH-2P-zj5" eventType="touchUpInside" id="itk-7A-4yp"/>
                                         </connections>
                                     </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題146_20200703193202.png" translatesAutoresizingMaskIntoConstraints="NO" id="ouT-1S-ENq">
+                                        <rect key="frame" x="-117" y="228" width="364" height="199"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.47591265123712367" green="1" blue="0.88951155514074565" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="nR8-uc-jgK" firstAttribute="centerX" secondItem="Two-Np-Prh" secondAttribute="centerX" id="0UG-Ew-eqb"/>
+                                    <constraint firstAttribute="bottom" secondItem="6gh-l2-4EU" secondAttribute="bottom" constant="85" id="Bf0-ww-xZk"/>
+                                    <constraint firstItem="WJO-3U-nrp" firstAttribute="centerX" secondItem="Two-Np-Prh" secondAttribute="centerX" id="GvJ-5Y-JJd"/>
+                                    <constraint firstItem="WJO-3U-nrp" firstAttribute="top" secondItem="nR8-uc-jgK" secondAttribute="bottom" constant="18" id="NU7-dL-tdb"/>
+                                    <constraint firstAttribute="trailing" secondItem="6gh-l2-4EU" secondAttribute="trailing" constant="60" id="PlB-yf-KYj"/>
+                                    <constraint firstItem="vsh-lU-hmN" firstAttribute="centerX" secondItem="Two-Np-Prh" secondAttribute="centerX" id="TsZ-7g-Fzl"/>
+                                    <constraint firstAttribute="bottom" secondItem="lWv-ig-OcZ" secondAttribute="bottom" constant="2" id="UTK-0C-4RL"/>
+                                    <constraint firstItem="WJO-3U-nrp" firstAttribute="centerY" secondItem="Two-Np-Prh" secondAttribute="centerY" id="aqc-aJ-t1n"/>
+                                    <constraint firstAttribute="trailing" secondItem="lWv-ig-OcZ" secondAttribute="trailing" constant="-94" id="f0D-sD-xAU"/>
+                                    <constraint firstAttribute="bottom" secondItem="vsh-lU-hmN" secondAttribute="bottom" constant="156" id="hnN-UF-KPs"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Two-Np-Prh" firstAttribute="bottom" secondItem="0al-ab-6cK" secondAttribute="bottom" constant="34" id="RGB-CM-ZKL"/>
+                            <constraint firstItem="Two-Np-Prh" firstAttribute="leading" secondItem="0al-ab-6cK" secondAttribute="leading" id="X6R-p6-KfR"/>
+                            <constraint firstItem="0al-ab-6cK" firstAttribute="top" secondItem="Two-Np-Prh" secondAttribute="top" constant="44" id="dEr-n7-M1B"/>
+                            <constraint firstItem="0al-ab-6cK" firstAttribute="trailing" secondItem="Two-Np-Prh" secondAttribute="trailing" id="qUx-y4-rgq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="0al-ab-6cK"/>
                     </view>
                 </viewController>
