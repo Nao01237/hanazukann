@@ -99,6 +99,13 @@
 		354FE753246258E6001BE79D /* yamaboshi1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354FE752246258E6001BE79D /* yamaboshi1.jpg */; };
 		354FE75724625B28001BE79D /* gazania4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 354FE75624625B28001BE79D /* gazania4.jpeg */; };
 		354FE75924630259001BE79D /* 無題193_20200506233218.png in Resources */ = {isa = PBXBuildFile; fileRef = 354FE75824630259001BE79D /* 無題193_20200506233218.png */; };
+		357BA10D24AF3DE10049E16E /* 無題143_20200703191926.png in Resources */ = {isa = PBXBuildFile; fileRef = 357BA10C24AF3DE10049E16E /* 無題143_20200703191926.png */; };
+		357BA11024AF3FCF0049E16E /* 無題145_20200703192746.png in Resources */ = {isa = PBXBuildFile; fileRef = 357BA10E24AF3FCF0049E16E /* 無題145_20200703192746.png */; };
+		357BA11124AF3FCF0049E16E /* 無題145_20200703192504.png in Resources */ = {isa = PBXBuildFile; fileRef = 357BA10F24AF3FCF0049E16E /* 無題145_20200703192504.png */; };
+		357BA11424AF41020049E16E /* 無題147_20200703193255.png in Resources */ = {isa = PBXBuildFile; fileRef = 357BA11224AF41010049E16E /* 無題147_20200703193255.png */; };
+		357BA11524AF41020049E16E /* 無題146_20200703193202.png in Resources */ = {isa = PBXBuildFile; fileRef = 357BA11324AF41020049E16E /* 無題146_20200703193202.png */; };
+		357BA11824AF42490049E16E /* 無題148_20200703193742.png in Resources */ = {isa = PBXBuildFile; fileRef = 357BA11624AF42490049E16E /* 無題148_20200703193742.png */; };
+		357BA11924AF42490049E16E /* 無題149_20200703193824.png in Resources */ = {isa = PBXBuildFile; fileRef = 357BA11724AF42490049E16E /* 無題149_20200703193824.png */; };
 		9F857A39685ECFE30724D965 /* Pods_6bann_6bannUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555AE04A537F6D65E7E7F8DF /* Pods_6bann_6bannUITests.framework */; };
 		CCA4C994D6C2E94F8691B915 /* Pods_6bannTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AB90A356768E1C1A955C03 /* Pods_6bannTests.framework */; };
 		D1907F5EECD2C848BD81C738 /* Pods_6bann.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E21CEDBA89748529DA18E4 /* Pods_6bann.framework */; };
@@ -222,6 +229,13 @@
 		354FE752246258E6001BE79D /* yamaboshi1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yamaboshi1.jpg; sourceTree = "<group>"; };
 		354FE75624625B28001BE79D /* gazania4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gazania4.jpeg; sourceTree = "<group>"; };
 		354FE75824630259001BE79D /* 無題193_20200506233218.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "無題193_20200506233218.png"; sourceTree = "<group>"; };
+		357BA10C24AF3DE10049E16E /* 無題143_20200703191926.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "無題143_20200703191926.png"; sourceTree = "<group>"; };
+		357BA10E24AF3FCF0049E16E /* 無題145_20200703192746.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "無題145_20200703192746.png"; sourceTree = "<group>"; };
+		357BA10F24AF3FCF0049E16E /* 無題145_20200703192504.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "無題145_20200703192504.png"; sourceTree = "<group>"; };
+		357BA11224AF41010049E16E /* 無題147_20200703193255.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "無題147_20200703193255.png"; sourceTree = "<group>"; };
+		357BA11324AF41020049E16E /* 無題146_20200703193202.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "無題146_20200703193202.png"; sourceTree = "<group>"; };
+		357BA11624AF42490049E16E /* 無題148_20200703193742.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "無題148_20200703193742.png"; sourceTree = "<group>"; };
+		357BA11724AF42490049E16E /* 無題149_20200703193824.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "無題149_20200703193824.png"; sourceTree = "<group>"; };
 		555AE04A537F6D65E7E7F8DF /* Pods_6bann_6bannUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_6bann_6bannUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A3CDE523C639210B3DE86D /* Pods-6bann-6bannUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-6bann-6bannUITests.debug.xcconfig"; path = "Target Support Files/Pods-6bann-6bannUITests/Pods-6bann-6bannUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8AABE2AC9E9166B10C88E507 /* Pods-6bannTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-6bannTests.debug.xcconfig"; path = "Target Support Files/Pods-6bannTests/Pods-6bannTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -415,7 +429,14 @@
 				354FE6B9246105D0001BE79D /* icon.png */,
 				354FE6C2246105D0001BE79D /* 無題129_20200117194637.png */,
 				354FE6CA246105D0001BE79D /* 無題98_20200117184854.png */,
+				357BA10C24AF3DE10049E16E /* 無題143_20200703191926.png */,
+				357BA11324AF41020049E16E /* 無題146_20200703193202.png */,
+				357BA11224AF41010049E16E /* 無題147_20200703193255.png */,
 				354FE6DA246105D0001BE79D /* furijia(asagizuisen).webp */,
+				357BA10F24AF3FCF0049E16E /* 無題145_20200703192504.png */,
+				357BA11624AF42490049E16E /* 無題148_20200703193742.png */,
+				357BA11724AF42490049E16E /* 無題149_20200703193824.png */,
+				357BA10E24AF3FCF0049E16E /* 無題145_20200703192746.png */,
 				354FE75824630259001BE79D /* 無題193_20200506233218.png */,
 				354FE6E4246105D0001BE79D /* a.png */,
 				354FE6E8246105D0001BE79D /* 無題132_20200110193021.png */,
@@ -670,6 +691,7 @@
 				354FE70B246105D1001BE79D /* orangebara.jpg in Resources */,
 				354FE6F8246105D0001BE79D /* zeraniumu.jpeg in Resources */,
 				354F4FBF249CD0BB000F5409 /* shikuramen.jpg in Resources */,
+				357BA11124AF3FCF0049E16E /* 無題145_20200703192504.png in Resources */,
 				354FE735246105D1001BE79D /* aobara.jpeg in Resources */,
 				354F4FBC249CD0BB000F5409 /* himawari tuki.jpg in Resources */,
 				354FE702246105D0001BE79D /* anzu.jpg in Resources */,
@@ -679,9 +701,11 @@
 				354F4FBA249CD0BB000F5409 /* bara tuki.jpg in Resources */,
 				354FE725246105D1001BE79D /* blackBack.png in Resources */,
 				354FE6F4246105D0001BE79D /* yagurumagiku.jpeg in Resources */,
+				357BA10D24AF3DE10049E16E /* 無題143_20200703191926.png in Resources */,
 				354FE707246105D0001BE79D /* shirobara.jpg in Resources */,
 				354F4FB7249CD0BB000F5409 /* poinsechia.jpg in Resources */,
 				354FE726246105D1001BE79D /* a.png in Resources */,
+				357BA11824AF42490049E16E /* 無題148_20200703193742.png in Resources */,
 				354FE6FA246105D0001BE79D /* sweetaiyssum.jpg in Resources */,
 				354FE733246105D1001BE79D /* nemofira.jpg in Resources */,
 				354FE720246105D1001BE79D /* yellowBack.png in Resources */,
@@ -697,6 +721,7 @@
 				354FE715246105D1001BE79D /* berufurawa.jpg in Resources */,
 				354FE717246105D1001BE79D /* fukujuso.jpeg in Resources */,
 				354FE704246105D0001BE79D /* 無題129_20200117194637.png in Resources */,
+				357BA11524AF41020049E16E /* 無題146_20200703193202.png in Resources */,
 				354FE71A246105D1001BE79D /* tannpopo.jpg in Resources */,
 				354FE703246105D0001BE79D /* akabara.jpg in Resources */,
 				354FE709246105D1001BE79D /* sumire.jpeg in Resources */,
@@ -704,6 +729,7 @@
 				354FE734246105D1001BE79D /* enishida.jpeg in Resources */,
 				354F4FBB249CD0BB000F5409 /* shimbijiumu.jpg in Resources */,
 				354FE70D246105D1001BE79D /* odontogurossamu.jpg in Resources */,
+				357BA11924AF42490049E16E /* 無題149_20200703193824.png in Resources */,
 				354FE722246105D1001BE79D /* yaezakura.jpeg in Resources */,
 				354FE721246105D1001BE79D /* buruberu.jpg in Resources */,
 				354FE75724625B28001BE79D /* gazania4.jpeg in Resources */,
@@ -727,6 +753,7 @@
 				354FE6F6246105D0001BE79D /* himawari.jpg in Resources */,
 				354FE71D246105D1001BE79D /* shdarezakura.jpg in Resources */,
 				354FE71C246105D1001BE79D /* furijia(asagizuisen).webp in Resources */,
+				357BA11424AF41020049E16E /* 無題147_20200703193255.png in Resources */,
 				354FE70C246105D1001BE79D /* 無題98_20200117184854.png in Resources */,
 				354FE710246105D1001BE79D /* higambana.jpg in Resources */,
 				354FE713246105D1001BE79D /* rabenda.jpeg in Resources */,
@@ -741,6 +768,7 @@
 				354FE70F246105D1001BE79D /*  jasumin.jpeg in Resources */,
 				354FE705246105D0001BE79D /* bluestar.jpg in Resources */,
 				354FE7462461094E001BE79D /* musukari１.jpg in Resources */,
+				357BA11024AF3FCF0049E16E /* 無題145_20200703192746.png in Resources */,
 				354FE71E246105D1001BE79D /* fuarenopushisu・afurodeite.jpg in Resources */,
 				354FE72F246105D1001BE79D /* someiyoshino.jpeg in Resources */,
 			);
