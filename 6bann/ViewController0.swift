@@ -24,8 +24,7 @@ class ViewController0: UIViewController {
         // 日付から月を知る
         let nowDateComponents: DateComponents = Calendar.current.dateComponents([.year, .month, .day], from: today)
         let nowMonth = nowDateComponents.month!
-
-
+        
         // 月に応じて表示するポップアップを変える
         var title: String = ""
         var image: UIImage!
@@ -34,80 +33,44 @@ class ViewController0: UIViewController {
         case 1:
             title = "シンビジウム"
             image = UIImage(named: "shimbijiumu.jpg")
-        
-        print(nowMonth)
         case 2:
             title = "フリージア"
             image = UIImage(named: "furijia.jpg")
-            
-         print(nowMonth)
-            case 3:
-                 title = "チューリップ"
-                 image = UIImage(named: "churippu.jpg")
-                 
-             
-                print(nowMonth)
-            case 4:
-                title = "桜（サクラ）"
-                image = UIImage(named: "sakura.jpg")
-                
-              
-                print(nowMonth)
-            case 5:
-                title = "すずらん（鈴蘭)"
-                image = UIImage(named: "suzuran.jpg")
-                
-                
-                print(nowMonth)
-            case 6:
-                title = "バラ"
-                image = UIImage(named: "bara tuki.jpg")
-                
-                
-                print(nowMonth)
-            case 7:
-                title = "百合"
-                image = UIImage(named: "yuri.jpg")
-                
-                
-                print(nowMonth)
-            case 8:
-                title = "ひまわり（向日葵）"
-                image = UIImage(named: "himawari tuki.jpg")
-                
-                
-                print(nowMonth)
-            case 9:
-                title = "ダリア"
-                image = UIImage(named: "daria.jpg")
-                
-                
-                print(nowMonth)
-            case 10:
-                title = "ガーベラ"
-                image = UIImage(named: "gabera.jpgg")
-                
-                
-                print(nowMonth)
-            case 11:
-                title = "シクラメン"
-                image = UIImage(named: "shikuramen.jpg")
-                
-                
-                print(nowMonth)
-            case 12:
-               title = "ポインセチア"
-               image = UIImage(named: "poinsechia.jpg")
-               
-                print(nowMonth)
-        
+        case 3:
+            title = "チューリップ"
+            image = UIImage(named: "churippu.jpg")
+        case 4:
+            title = "桜（サクラ）"
+            image = UIImage(named: "sakura.jpg")
+        case 5:
+            title = "すずらん（鈴蘭)"
+            image = UIImage(named: "suzuran.jpg")
+        case 6:
+            title = "バラ"
+            image = UIImage(named: "bara tuki.jpg")
+        case 7:
+            title = "百合"
+            image = UIImage(named: "yuri.jpg")
+        case 8:
+            title = "ひまわり（向日葵）"
+            image = UIImage(named: "himawari tuki.jpg")
+        case 9:
+            title = "ダリア"
+            image = UIImage(named: "daria.jpg")
+        case 10:
+            title = "ガーベラ"
+            image = UIImage(named: "gabera.jpgg")
+        case 11:
+            title = "シクラメン"
+            image = UIImage(named: "shikuramen.jpg")
+        case 12:
+            title = "ポインセチア"
+            image = UIImage(named: "poinsechia.jpg")
         default:
             break
         }
         
         let popup = PopupDialog(title: title, message: nil, image: image)
         self.present(popup, animated: true, completion: nil)
-        
-    
-}
+    }
 }
