@@ -148,37 +148,57 @@ class ViewController: UIViewController {
         purpleflowerArray.append(Mentor(name: "アヤメ", imageName: "ayame.jpeg", course:  "「よい便り」", s: "5月", t: "茎の先端に1～3輪の花を咲かせる多年草", mame:"低山から高原の明るい草原に見られる植物"))
         WhiteflowerArray.append(Mentor(name: "アヤメ", imageName: "ayame2.jpeg", course:  "「よい便り」", s: "5月", t: "茎の先端に1～3輪の花を咲かせる多年草", mame:"低山から高原の明るい草原に見られる植物"))
         
-        purpleflowerArray.append(Mentor(name: "シネラリア", imageName: "saineria.jpg", course:  "「いつも快活」「喜び」", s: "11月～5月", t: "", mame:""))
         
-        WhiteflowerArray.append(Mentor(name: "スイートアリッサム", imageName: "sweetaiyssum.jpg", course: "「価値あるもの」", s: "", t: "", mame:""))
-        blackflowerArray.append(Mentor(name: "チョコレートコスモス", imageName: "chocoiatecosmos.jpeg", course: "『恋の終わり』『恋の思い出』『移り変わらぬ気持ち』", s: "", t: "", mame:""))
-        WhiteflowerArray.append(Mentor(name: "ファレノプシス・アフロディテ", imageName: "fuarenopushisu・afurodeite.jpg", course: "幸福が飛んでやってくる", s: "", t: "", mame:""))
-        purpleflowerArray.append(Mentor(name: "ブルーベル", imageName: "buruberu.jpg", course:  "「謙遜」「変わらぬ心」", s: "", t: "", mame:""))
+        
+        
+        
+        purpleflowerArray.append(Mentor(name: "シネラリア", imageName: "saineria.jpg", course:  "「いつも快活」「喜び」", s: "11月～5月", t: "ガーベラに似た小輪から中輪の花を、ドーム状に密集させて咲かせる", mame:"カラフルな花をこんもりと密に咲かせる"))
+        
+        WhiteflowerArray.append(Mentor(name: "スイートアリッサム", imageName: "sweetaiyssum.jpg", course: "「価値あるもの」", s: "2月下旬～6月上旬、9月下旬～12月上旬", t: "本来は多年草ですが、高温多湿に弱く、日本では一年草として扱われる", mame:"ほんのりと甘い香りがある"))
+        
+        blackflowerArray.append(Mentor(name: "チョコレートコスモス", imageName: "chocoiatecosmos.jpeg", course: "『恋の終わり』『恋の思い出』『移り変わらぬ気持ち』", s: "5月～11月", t: "高温多湿に弱くやや育てにくい", mame:"チョコレートを思わせる香りをもつ"))
+        
+        WhiteflowerArray.append(Mentor(name: "ファレノプシス（胡蝶蘭）", imageName: "fuarenopushisu・afurodeite.jpg", course: "幸福が飛んでやってくる", s: "不定期（春から夏に比較的多く開花）", t: "肉厚の大きな葉の中に水分や養分をためて成長する", mame:"高級花として広まっている胡蝶蘭はほとんどが人工による交配種"))
+        
+        purpleflowerArray.append(Mentor(name: "ブルーベル", imageName: "buruberu.jpg", course:  "「謙遜」「変わらぬ心」", s: "4月末から5月上旬", t: "釣り鐘形で花びらの先端が外側に丸くカールする", mame:"多くの北西ヨーロッパの森林床は、群生して咲くブルーベルの青いカーペットに覆われる"))
+        
         greenflowerArray.append(Mentor(name: "バイモ", imageName: "baimo.jpg", course:  "「謙虚な心」「才能」", s: "", t: "", mame:""))
-        yellowflowerArray.append(Mentor(name: "ひまわり(向日葵)", imageName: "himawari.jpg", course: "「憧れ」「あなただけを見つめる」「偽りの愛」「にせ金持ち」", s: "", t: "", mame:""))
-        purpleflowerArray.append(Mentor(name: "スミレ(菫)", imageName: "sumire.jpeg", course:  "「謙虚」「誠実」「貞節」「愛」", s: "", t: "", mame:""))
-        WhiteflowerArray.append(Mentor(name: "ジャスミン(茉莉花)", imageName: " jasumin.jpeg", course: "「愛想の良い」「愛らしさ」「温順」「柔和」", s: "", t: "", mame:""))
-        WhiteflowerArray.append(Mentor(name: "百合(ユリ)", imageName: " jasumin.jpeg", course: "「純粋」「無垢」「純潔」「威厳」「華麗 」「虚栄心 」", s: "", t: "", mame:""))
-        yellowflowerArray.append(Mentor(name: "イチョウ", imageName: "icho.jpg", course: "「荘厳」「長寿」「鎮魂」", s: "", t: "", mame:""))
-        purpleflowerArray.append(Mentor(name: "ベルフラワー", imageName: "berufurawa.jpg", course:  "「感謝」「誠実」「楽しいおしゃべり」", s: "", t: "", mame:""))
-        pinkflowerArray.append(Mentor(name: "ハゲイトウ", imageName: "hageito.jpeg", course: "「不老不死」", s: "", t: "", mame:""))
-        yellowflowerArray.append(Mentor(name: "タンポポ", imageName: "tannpopo.jpg", course: "「愛の神託」「神託」「真心の愛」「別離」", s: "", t: "", mame:""))
-        greenflowerArray.append(Mentor(name: "グリーンローズ", imageName: "midoribara.jpg", course:  "「穏やか」「あなたは希望を持ちえる」", s: "", t: "", mame:""))
-        purpleflowerArray.append(Mentor(name: "パープルローズ", imageName: "papururozu.jpeg", course:  "「誇り」「気品」「尊敬」「エレガント」", s: "", t: "", mame:""))
-        pinkflowerArray.append(Mentor(name: "アンズ", imageName: "anzu.jpg", course: "「臆病な愛」「乙女のはにかみ」「疑い」「疑惑」", s: "", t: "", mame:""))
-        blueflowerArray.append(Mentor(name: "", imageName: "yagurumagiku.jpeg", course:
-            "「繊細」「優美」「教育」「信頼」", s: "", t: "", mame:""))
-        yellowflowerArray.append(Mentor(name: "エニシダ", imageName: "enishida.jpeg", course: "「謙遜」「卑下」「清潔」", s: "", t: "", mame:""))
-        pinkflowerArray.append(Mentor(name: "アルメリア", imageName: "arumeria.jpg", course: "「「同情」「思いやり」「共感」", s: "", t: "", mame:""))
-        redflowerArray.append(Mentor(name: "ゼラニウム", imageName: "zeraniumu.jpeg", course: "「尊敬」「信頼」「真の友情」", s: "", t: "", mame:""))
-        purpleflowerArray.append(Mentor(name: "オドントグロッサム", imageName: "odontogurossamu.jpg", course:  "「特別な存在」", s: "", t: "", mame:""))
-        redflowerArray.append(Mentor(name: "彼岸花", imageName: "higambana.jpg", course: "『情熱』『独立』『再会』『あきらめ』『転生』『悲しい思い出』『思うはあなた一人』『また会う日を楽しみに』", s: "", t: "", mame:""))
-        purpleflowerArray.append(Mentor(name: "ラベンダー", imageName: "rabenda.jpeg", course:  "「沈黙」「私に答えてください」「期待」「不信感」「疑惑」", s: "", t: "", mame:""))
-        yellowflowerArray.append(Mentor(name: "フクジュソウ", imageName: "fukujuso.jpeg", course: "「幸せを招く」「永久の幸福」「悲しき思い出」", s: "", t: "", mame:""))
-        WhiteflowerArray.append(Mentor(name: "スノードロップ", imageName: "sunodoroppu.jpeg", course: "「希望」「慰め」", s: "", t: "", mame:""))
-        WhiteflowerArray.append(Mentor(name: "スノーフレーク", imageName: "sunofureku.jpg", course: "「純粋」「汚れなき心」「慈愛」「美」「皆を惹きつける魅力」", s: "", t: "", mame:""))
-        orangeflowerArray.append(Mentor(name: "サンダーソニア", imageName: "sandasonia.jpeg", course:  "「福音」「祝福」「祈り」「信頼」「共感」「可憐」「愛らしい」「望郷」「励まし」「祝福の音色」", s: "", t: "", mame:""))
-        purpleflowerArray.append(Mentor(name: "デルフィニウム", imageName: "rabenda.jpeg", course:  "「あなたは幸福をふりまく」「誰もがあなたを慰める」", s: "", t: "", mame:""))
+        
+        yellowflowerArray.append(Mentor(name: "ひまわり(向日葵)", imageName: "himawari.jpg", course: "「憧れ」「あなただけを見つめる」「偽りの愛」「にせ金持ち」", s: "7月～9月", t: "草丈30cm程度の矮性品種から3mを超えるロシアヒマワリ、また切り花用など、さまざまな品種がある", mame:"観賞以外にも、タネを炒って食用にしたり、油を搾ったり、飼料に利用する"))
+        
+        purpleflowerArray.append(Mentor(name: "スミレ(菫)", imageName: "sumire.jpeg", course:  "「謙虚」「誠実」「貞節」「愛」", s: "4月～5月（促成品は2月ごろから）", t: "スミレは日当たりのよい草地や田畑のわき、堤防、道端などに生える多年草", mame:"花が咲いた促成株は2月ごろから出回る"))
+        
+        WhiteflowerArray.append(Mentor(name: "百合(ユリ)", imageName: " jasumin.jpeg", course: "「純粋」「無垢」「純潔」「威厳」「華麗 」「虚栄心 」", s: "5月下旬～6月上旬（スカシユリ系）、6月中・下旬（テッポウユリ）、7月中・下旬（オリエンタル系）", t: "球根は外皮で覆われていないため乾燥に弱く、市販される球根はピートモスやおがくずなどに包まれている", mame:"ユリは花姿や草姿、開花期などがさまざまで、多くの園芸品種がある"))
+        
+        yellowflowerArray.append(Mentor(name: "イチョウ", imageName: "icho.jpg", course: "「荘厳」「長寿」「鎮魂」", s: "11月", t: "葉の展開と同時に花をつける", mame:" 葉は夏には鮮やかな緑色となり、晩秋に黄金色に変わって落葉する"))
+        
+        purpleflowerArray.append(Mentor(name: "ベルフラワー", imageName: "berufurawa.jpg", course:  "「感謝」「誠実」「楽しいおしゃべり」", s: "4月～5月（促成株は3月ごろから）", t: "茎は根元から密に枝分かれして直径30～40cmほどのクッション状の茂みになる", mame:"自生地は石灰岩の崖ですが、栽培に石灰を使用する必要はない"))
+        
+        pinkflowerArray.append(Mentor(name: "ハゲイトウ", imageName: "hageito.jpeg", course: "「不老不死」", s: "一年草", t: "花は葉のつけ根に固まって咲く", mame:"秋花壇を彩る葉の強烈な色合いが魅力の一年草"))
+        
+        greenflowerArray.append(Mentor(name: "グリーンローズ", imageName: "midoribara.jpg", course:  "「穏やか」「あなたは希望を持ちえる」", s: "５月中旬から6月中旬と１０月中旬から１１月下旬", t: "バラ属の成形は、灌木、低木、または木本性のつる植物で、葉や茎に棘を持つものが多い", mame:"花弁とおしべが葉のように変化している"))
+        
+        purpleflowerArray.append(Mentor(name: "パープルローズ", imageName: "papururozu.jpeg", course:  "「誇り」「気品」「尊敬」「エレガント」", s: "５月中旬から6月中旬と１０月中旬から１１月下旬", t: "バラ属の成形は、灌木、低木、または木本性のつる植物で、葉や茎に棘を持つものが多い", mame:"高さ約30cm。１本に５輪前後の花を着ける"))
+        
+        pinkflowerArray.append(Mentor(name: "アンズ", imageName: "anzu.jpg", course: "「臆病な愛」「乙女のはにかみ」「疑い」「疑惑」", s: "6月中旬～7月上旬", t: "夏に雨の多い気候では、裂果や灰星病、胴枯病などの発生が多くて育てにくい", mame:"無農薬では栽培しにくい"))
+        
+        yellowflowerArray.append(Mentor(name: "エニシダ", imageName: "enishida.jpeg", course: "「謙遜」「卑下」「清潔」", s: "5月～6月", t: "常緑または落葉性の低木", mame:"寿命は10年ほど"))
+        
+        pinkflowerArray.append(Mentor(name: "アルメリア", imageName: "arumeria.jpg", course: "「「同情」「思いやり」「共感」", s: "3月～5月", t: "細長い茎の先端に丸いボール状に花が咲く", mame:"かんざしのような個性的な姿が魅力"))
+        
+        redflowerArray.append(Mentor(name: "彼岸花", imageName: "higambana.jpg", course: "『情熱』『独立』『再会』『あきらめ』『転生』『悲しい思い出』『思うはあなた一人』『また会う日を楽しみに』", s: "7月中旬～10月中旬", t: "光沢のある花弁が美しく、園芸品種も多くつくられている", mame:"出葉時期は種によって異なり、早春に出葉するものと秋に出葉するものがある"))
+        
+        purpleflowerArray.append(Mentor(name: "ラベンダー", imageName: "rabenda.jpeg", course:  "「沈黙」「私に答えてください」「期待」「不信感」「疑惑」", s: "4月～7月（四季咲き性の系統もある）", t: "ラベンダーは鮮やかな紫色と心地よい香りが魅力のハーブ", mame:"北海道のような寒さには強い反面、高温多湿に弱く、暖地での夏越しは難しいラベンダー"))
+        
+        yellowflowerArray.append(Mentor(name: "フクジュソウ", imageName: "fukujuso.jpeg", course: "「幸せを招く」「永久の幸福」「悲しき思い出」", s: "2月～4月", t: "フクジュソウは北海道から本州の山野に多く見られる「春植物」", mame:"これまでフクジュソウとされていたものは現在4種類に分類されている"))
+        
+        WhiteflowerArray.append(Mentor(name: "スノードロップ", imageName: "sunodoroppu.jpeg", course: "「希望」「慰め」", s: "2月～3月", t: "約15種が知られている", mame:"スノードロップは可憐な草姿に白い下向きの花を1輪咲かせる"))
+        
+        WhiteflowerArray.append(Mentor(name: "スノーフレーク", imageName: "sunofureku.jpg", course: "「純粋」「汚れなき心」「慈愛」「美」「皆を惹きつける魅力」", s: "3月中旬～4月中旬", t: "庭植えであれば、群植すると美しい", mame:"スノーフレークは、スイセンに似たすらりとした葉に、スズランのようなベル形の花を下向きに咲かせる"))
+        
+        orangeflowerArray.append(Mentor(name: "サンダーソニア", imageName: "sandasonia.jpeg", course:  "「福音」「祝福」「祈り」「信頼」「共感」「可憐」「愛らしい」「望郷」「励まし」「祝福の音色」", s: "6月～7月", t: "サンダーソニアは高温と過湿に弱い", mame:"かわいらしく人気がある"))
+        
+        purpleflowerArray.append(Mentor(name: "デルフィニウム", imageName: "rabenda.jpeg", course:  "「あなたは幸福をふりまく」「誰もがあなたを慰める」", s: "5月～6月", t: "野生種は、冷涼で、雪解け水が流れ込む高地の草原湿地に自生する", mame:"多くは品種名がついていない"))
     }
 }
 

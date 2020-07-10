@@ -79,7 +79,7 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題146_20200703193202.png" translatesAutoresizingMaskIntoConstraints="NO" id="ouT-1S-ENq">
-                                        <rect key="frame" x="-117" y="228" width="364" height="199"/>
+                                        <rect key="frame" x="-179" y="138" width="397" height="206"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
