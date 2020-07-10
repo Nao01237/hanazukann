@@ -141,10 +141,9 @@ class ViewController: UIViewController {
         orangeflowerArray.append(Mentor(name: "アブチロン", imageName: "abuchironn.jpg", course:  "「尊敬」「良い便り」「恵まれた環境」「真実は一つ」", s: "4月中旬～11月上旬", t: "下垂気味に長期間咲く花が魅力の熱帯花木", mame:"開花時期が長い"))
         pinkflowerArray.append(Mentor(name: "アブチロン", imageName: "abuchiron2.jpg", course:  "「尊敬」「良い便り」「恵まれた環境」「真実は一つ」", s: "4月中旬～11月上旬", t: "下垂気味に長期間咲く花が魅力の熱帯花木", mame:"メガポタミクムとストリアツムという品種を交配させた園芸品種"))
         redflowerArray.append(Mentor(name: "アブチロン", imageName: "abuchiron1.jpeg", course:  "「尊敬」「良い便り」「恵まれた環境」「真実は一つ」", s: "4月中旬～11月上旬", t: "下垂気味に長期間咲く花が魅力の熱帯花木", mame:"下に向かって、うなだれるように花がつく"))
-        greenflowerArray.append(Mentor(name: "ヤマボウシ", imageName: "yamaboushi1.jpeg", course:  "「友情」", s: "6月中旬～7月中旬", t: "花の観賞期間が長いのが特長", mame:"果実は9～10月頃に赤く熟して甘酸っぱくて美味しい"))
+        greenflowerArray.append(Mentor(name: "ヤマボウシ", imageName: "yamaboshi1.jpg", course:  "「友情」", s: "6月中旬～7月中旬", t: "花の観賞期間が長いのが特長", mame:"果実は9～10月頃に赤く熟して甘酸っぱくて美味しい"))
         pinkflowerArray.append(Mentor(name: "ヤマボウシ", imageName: "yamaboshi2.jpg", course:  "「友情」", s: "6月中旬～7月中旬", t: "花の観賞期間が長いのが特長", mame:"総苞弁が淡い紅色の品種をベニヤマボウシと呼ぶ"))
         WhiteflowerArray.append(Mentor(name: "ヤマボウシ", imageName: "yamaboshi.jpeg", course:  "「友情」", s: "6月中旬～7月中旬", t: "花の観賞期間が長いのが特長", mame:"開花期間が比較的長"))
-        greenflowerArray.append(Mentor(name: "ヒスイカズラ", imageName: "hisuikazura.jpeg", course:  "「私を忘れないで」", s: "３月〜５月", t: "総状花序（そうじょうかじょ）という房に多くの花が連なってなって咲く", mame:"房の長さは50センチ1ｍほど"))
         purpleflowerArray.append(Mentor(name: "アヤメ", imageName: "ayame.jpeg", course:  "「よい便り」", s: "5月", t: "茎の先端に1～3輪の花を咲かせる多年草", mame:"低山から高原の明るい草原に見られる植物"))
         WhiteflowerArray.append(Mentor(name: "アヤメ", imageName: "ayame2.jpeg", course:  "「よい便り」", s: "5月", t: "茎の先端に1～3輪の花を咲かせる多年草", mame:"低山から高原の明るい草原に見られる植物"))
         
@@ -161,8 +160,6 @@ class ViewController: UIViewController {
         WhiteflowerArray.append(Mentor(name: "ファレノプシス（胡蝶蘭）", imageName: "fuarenopushisu・afurodeite.jpg", course: "幸福が飛んでやってくる", s: "不定期（春から夏に比較的多く開花）", t: "肉厚の大きな葉の中に水分や養分をためて成長する", mame:"高級花として広まっている胡蝶蘭はほとんどが人工による交配種"))
         
         purpleflowerArray.append(Mentor(name: "ブルーベル", imageName: "buruberu.jpg", course:  "「謙遜」「変わらぬ心」", s: "4月末から5月上旬", t: "釣り鐘形で花びらの先端が外側に丸くカールする", mame:"多くの北西ヨーロッパの森林床は、群生して咲くブルーベルの青いカーペットに覆われる"))
-        
-        greenflowerArray.append(Mentor(name: "バイモ", imageName: "baimo.jpg", course:  "「謙虚な心」「才能」", s: "", t: "", mame:""))
         
         yellowflowerArray.append(Mentor(name: "ひまわり(向日葵)", imageName: "himawari.jpg", course: "「憧れ」「あなただけを見つめる」「偽りの愛」「にせ金持ち」", s: "7月～9月", t: "草丈30cm程度の矮性品種から3mを超えるロシアヒマワリ、また切り花用など、さまざまな品種がある", mame:"観賞以外にも、タネを炒って食用にしたり、油を搾ったり、飼料に利用する"))
         
@@ -198,7 +195,7 @@ class ViewController: UIViewController {
         
         orangeflowerArray.append(Mentor(name: "サンダーソニア", imageName: "sandasonia.jpeg", course:  "「福音」「祝福」「祈り」「信頼」「共感」「可憐」「愛らしい」「望郷」「励まし」「祝福の音色」", s: "6月～7月", t: "サンダーソニアは高温と過湿に弱い", mame:"かわいらしく人気がある"))
         
-        purpleflowerArray.append(Mentor(name: "デルフィニウム", imageName: "rabenda.jpeg", course:  "「あなたは幸福をふりまく」「誰もがあなたを慰める」", s: "5月～6月", t: "野生種は、冷涼で、雪解け水が流れ込む高地の草原湿地に自生する", mame:"多くは品種名がついていない"))
+        
     }
 }
 
