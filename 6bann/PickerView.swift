@@ -10,13 +10,52 @@ import UIKit
 
 class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     @IBOutlet var label: UILabel!
+    var onej = ["",]
+    var onec = ["",]
+    var oneg = ["",]
+    var twoj = ["",]
+    var twoc = ["",]
+    var twog = ["",]
+    var threej = ["",]
+    var threec = ["",]
+    var threeg = ["ソメイヨシノ","シダレザクラ",]
+    var fourj = ["ソメイヨシノ","シダレザクラ"]
+    var fourc = ["ソメイヨシノ","ヤエザクラ","シダレザクラ"]
+    var fourg = ["ソメイヨシノ","ヤエザクラ","シダレザクラ"]
+    var fivej = ["ソメイヨシノ","ヤエザクラ",]
+    var fivec = ["",]
+    var fiveg = ["",]
+    var sixj = ["",]
+    var sixc = ["",]
+    var sixg = ["",]
+    var sevenj = ["",]
+    var sevenc = ["",]
+    var seveng = ["",]
+    var eightj = ["",]
+    var eightc = ["",]
+    var eightg = ["",]
+    var ninej = ["",]
+    var ninec = ["",]
+    var nineg = ["",]
+    var tenj = ["",]
+    var tenc = ["",]
+    var teng = ["",]
+    var eievenj = ["",]
+    var eievenc = ["",]
+    var eieveng = ["",]
+    var twelvej = ["",]
+    var twelvec = ["",]
+    var twelveg = ["",]
+    
+    
+    
     
         
-        @IBOutlet var pickerView: UIPickerView!
+    @IBOutlet var pickerView: UIPickerView!
         
         // たくさん卒業してしまった...
-    let dataList = ["１月上旬","2月上旬","3月上旬","4月上旬","5月上旬","6月上旬","7月上旬","8月上旬","9月上旬","10月上旬","11月上旬","12月上旬","１月中旬","2月中旬","3月中旬","4月中旬","5月中旬","6月中旬","7月中旬","8月中旬","9月中旬","10月中旬","11月中旬","12月中旬","１月下旬","2月下旬","3月下旬","4月下旬","5月下旬","6月下旬","7月下旬","8月下旬","9月下旬","10月下旬","11月下旬","12月下旬"
-        ]
+    let dataList = ["１月上旬","１月中旬","１月下旬","2月上旬","2月中旬","2月下旬","3月上旬","3月中旬","3月下旬","4月上旬","4月中旬","4月下旬","5月上旬","5月中旬","5月下旬","6月上旬","6月中旬","6月下旬","7月上旬","7月中旬","7月下旬","8月上旬","8月中旬","8月下旬","9月上旬","9月中旬","9月下旬","10月上旬","10月中旬","10月下旬",
+        "11月上旬","11月中旬","11月下旬","12月上旬","12月中旬","12月下旬"]
         
         
         override func viewDidLoad() {
