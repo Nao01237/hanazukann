@@ -130,9 +130,9 @@ class ViewController: UIViewController {
         yellowflowerArray.append(Mentor(name: "アマリリス（黄色）", imageName: "amaririsu3.jpg", course: "「誇り」「おしゃべり」「輝くばかりの美しさ」", s: "4月下旬～6月（春咲き品種）、10月（秋咲き品種）", t: "春に花茎（蕾）と葉がほぼ同時に地上に現れ、その後開花し、夏は葉が30～50cmに伸び、冬になると枯れて地上部がなくなる", mame:"アマリリスの咲き方は一重咲きだけでなく、八重咲きの品種もある"))
         
         
-        blueflowerArray.append(Mentor(name: "ムスカリ", imageName: "musukari１.jpg", course: "『夢にかける思い』『失望』『失意』『明るい未来』", s: "3月～5月中旬", t: "秋植えの球根で、耐寒性が高い花", mame:"ムスカリの名前は、ギリシャ語の「麝香（じゃこう）」に由来"))
-        purpleflowerArray.append(Mentor(name: "ムスカリ", imageName: "musukari.jpeg", course: "『夢にかける思い』『失望』『失意』『明るい未来』", s: "3月～5月中旬", t: "秋植えの球根で、耐寒性が高い花", mame:"英名はグレープヒヤシンス"))
-        WhiteflowerArray.append(Mentor(name: "ムスカリ", imageName: "musukari2.jpg", course: "『夢にかける思い』『失望』『失意』『明るい未来』", s: "3月～5月中旬", t: "秋植えの球根で、耐寒性が高い花", mame:"ヨーロッパでは人気の花壇材料"))
+        blueflowerArray.append(Mentor(name: "ムスカリ（青）", imageName: "musukari１.jpg", course: "『夢にかける思い』『失望』『失意』『明るい未来』", s: "3月～5月中旬", t: "秋植えの球根で、耐寒性が高い花", mame:"ムスカリの名前は、ギリシャ語の「麝香（じゃこう）」に由来"))
+        purpleflowerArray.append(Mentor(name: "ムスカリ（紫）", imageName: "musukari.jpeg", course: "『夢にかける思い』『失望』『失意』『明るい未来』", s: "3月～5月中旬", t: "秋植えの球根で、耐寒性が高い花", mame:"英名はグレープヒヤシンス"))
+        WhiteflowerArray.append(Mentor(name: "ムスカリ（白）", imageName: "musukari2.jpg", course: "『夢にかける思い』『失望』『失意』『明るい未来』", s: "3月～5月中旬", t: "秋植えの球根で、耐寒性が高い花", mame:"ヨーロッパでは人気の花壇材料"))
         blueflowerArray.append(Mentor(name: "ブルースター", imageName: "bluestar.jpg", course: "『信じ合う心』『幸福な愛』『星の精』『早すぎた恋』『身を切る想い』", s: "5月～10月上旬", t: "関東地方南部などでも霜よけをすれば戸外で冬越しする比較的丈夫な多年草", mame:"ブルースターの名は勿論星型に咲く空色の花姿から付いた"))
         blueflowerArray.append(Mentor(name: "ネモフィラ", imageName: "nemofira.jpg", course: "『どこでも成功』『可憐』『あなたを許す』", s: "4月～5月（ポット苗は2月～3月に流通）", t: "細かく切れ込んだ葉が密に茂り、自然に分枝して咲きながら大きくこんもりと成長する", mame:"ネモフィラは耐寒性一年草(たいかんせいいちねんそう)という種類の花"))
         yellowflowerArray.append(Mentor(name: "ガザニア", imageName: "gazania.jpg", course: "『あなたを誇りに思う』『笑顔で答える』『身近な愛』 「あなたを誇りに思う」", s: "4月～10月上旬", t: "高温乾燥には強いが、多湿には弱い", mame:"クンショウギク（勲章菊）とも呼ばれるキク科の花"))
