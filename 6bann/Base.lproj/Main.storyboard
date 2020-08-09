@@ -660,7 +660,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="126" y="-50"/>
+            <point key="canvasLocation" x="-104" y="117"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.87249649539999996" green="0.96876795419999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
