@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		350A175A248A51CB006B30CA /* ayame2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 350A1759248A51CB006B30CA /* ayame2.jpeg */; };
 		350A176224939493006B30CA /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A176124939493006B30CA /* ViewController0.swift */; };
+		354B74CA24DFD9F4006BC28E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354B74C924DFD9F4006BC28E /* CollectionViewCell.swift */; };
 		354F4FB4249CD0BB000F5409 /* sakura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FA8249CD0BA000F5409 /* sakura.jpg */; };
 		354F4FB5249CD0BB000F5409 /* furijia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FA9249CD0BA000F5409 /* furijia.jpg */; };
 		354F4FB6249CD0BB000F5409 /* daria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FAA249CD0BA000F5409 /* daria.jpg */; };
@@ -140,6 +141,7 @@
 /* Begin PBXFileReference section */
 		350A1759248A51CB006B30CA /* ayame2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ayame2.jpeg; sourceTree = "<group>"; };
 		350A176124939493006B30CA /* ViewController0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
+		354B74C924DFD9F4006BC28E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		354F4FA8249CD0BA000F5409 /* sakura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sakura.jpg; sourceTree = "<group>"; };
 		354F4FA9249CD0BA000F5409 /* furijia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = furijia.jpg; sourceTree = "<group>"; };
 		354F4FAA249CD0BA000F5409 /* daria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daria.jpg; sourceTree = "<group>"; };
@@ -539,6 +541,7 @@
 				FC888DB422CF558D00D5B346 /* ViewController.swift */,
 				350A176124939493006B30CA /* ViewController0.swift */,
 				FC888DB622CF558D00D5B346 /* Main.storyboard */,
+				354B74C924DFD9F4006BC28E /* CollectionViewCell.swift */,
 				FC888DB922CF558F00D5B346 /* Assets.xcassets */,
 				FC888DBE22CF558F00D5B346 /* Info.plist */,
 				FC888DE722CF5DD300D5B346 /* Mentor.swift */,
@@ -904,6 +907,7 @@
 				FC09815B236C4AB100D1CFD1 /* SelectViewController.swift in Sources */,
 				350A176224939493006B30CA /* ViewController0.swift in Sources */,
 				357BC4AE24DE448A007B0084 /* PickerView.swift in Sources */,
+				354B74CA24DFD9F4006BC28E /* CollectionViewCell.swift in Sources */,
 				FC888DB522CF558D00D5B346 /* ViewController.swift in Sources */,
 				FC888DE822CF5DD300D5B346 /* Mentor.swift in Sources */,
 				FC888DB322CF558D00D5B346 /* AppDelegate.swift in Sources */,

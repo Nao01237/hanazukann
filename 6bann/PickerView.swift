@@ -8,9 +8,10 @@
 
 import UIKit
 
-class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource , UICollectionViewDataSource{
     @IBOutlet var label: UILabel!
     var onej = ["シネラリア","","","","",]
+    var imageNameOneJ = [""]
     var onec = ["シネラリア","","","","",]
     var oneg = ["シネラリア","","","","",]
     var twoj = ["シネラリア","フクジュソウ","スノードロップ","","",]
@@ -55,7 +56,7 @@ class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
     
         
     @IBOutlet var pickerView: UIPickerView!
-        
+    @IBOutlet var collectionView: UICollectionView!
         // たくさん卒業してしまった...
     let dataList = ["１月上旬","１月中旬","１月下旬","2月上旬","2月中旬","2月下旬","3月上旬","3月中旬","3月下旬","4月上旬","4月中旬","4月下旬","5月上旬","5月中旬","5月下旬","6月上旬","6月中旬","6月下旬","7月上旬","7月中旬","7月下旬","8月上旬","8月中旬","8月下旬","9月上旬","9月中旬","9月下旬","10月上旬","10月中旬","10月下旬",
         "11月上旬","11月中旬","11月下旬","12月上旬","12月中旬","12月下旬","不定期","一年草"]
@@ -64,10 +65,13 @@ class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
         override func viewDidLoad() {
             super.viewDidLoad()
             
+            
+            
             // Delegate設定
             pickerView.delegate = self
             pickerView.dataSource = self
             
+            collectionView.delegate = self
             label.text = "花を月で絞る"
             
         }
@@ -99,8 +103,48 @@ class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
             label.text = dataList[row]
             
         }
-        
+    
+     let colors: [UIColor] = [UIColor.black, UIColor.blue, UIColor.brown, UIColor.cyan, UIColor.darkGray, UIColor.darkText, UIColor.gray, UIColor.green, UIColor.lightGray, UIColor.orange, UIColor.red]
+           // cellの色の名前の配列
+           let colorNames: [String] = ["black", "blue", "brown", "cyan", "darkGray", "darkText", "gray", "green", "lightGray", "orange", "red"]
+
+          
+           var giveColor: UIColor = UIColor.black
+          
+           var giveColorName: String = "black"
+      
+               func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+                return onej.count
+           }
+
+           func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+               let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
+
+
+               return cell
+           }
+
+    //
+    //            override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    //                if segue.identifier == "Segue" {
+    //                    let vc = segue.destination as! ViewController
+    //                    vc.receiveColor = giveColor
+    //                    vc.receiveColorName = giveColorName
+    //                }
+    //            }
+        }
+
+    extension PickerView: UICollectionViewDelegateFlowLayout {
+
+        func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+            // 例えば端末サイズの半分の width と height にして 2 列にする場合
+            let width: CGFloat = UIScreen.main.bounds.width / 2 - 10
+            let height = CGFloat(180.0)
+            return CGSize(width: width, height: height)
+        }
     }
+
+        
 
     
 
