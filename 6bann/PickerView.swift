@@ -11,7 +11,7 @@ import UIKit
 class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource , UICollectionViewDataSource{
     @IBOutlet var label: UILabel!
     var onej = ["シネラリア","","","","",]
-    var imageNameOneJ = [""]
+    var imageNameOneJ = ["saineria.jpg"]
     var onec = ["シネラリア","","","","",]
     var oneg = ["シネラリア","","","","",]
     var twoj = ["シネラリア","フクジュソウ","スノードロップ","","",]
@@ -70,9 +70,8 @@ class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
             // Delegate設定
             pickerView.delegate = self
             pickerView.dataSource = self
-            
-            collectionView.delegate = self
-            label.text = "花を月で絞る"
+        
+           // label.text = "花を月で絞る"
             
         }
         
