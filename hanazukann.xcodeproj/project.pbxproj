@@ -388,7 +388,6 @@
 			children = (
 				354FE6E7246105D0001BE79D /* purpleBack.png */,
 				354FE6DF246105D0001BE79D /* buruberu.jpg */,
-				350A1759248A51CB006B30CA /* ayame2.jpeg */,
 				354FE6C7246105D0001BE79D /* sumire.jpeg */,
 				354FE6EC246105D0001BE79D /* ayame.jpeg */,
 				354FE6D1246105D0001BE79D /* rabenda.jpeg */,
@@ -412,6 +411,7 @@
 				354FE6B8246105D0001BE79D /* sweetaiyssum.jpg */,
 				354FE6B7246105D0001BE79D /* yamaboushi.jpeg */,
 				354FE6BA246105D0001BE79D /* sunodoroppu.jpeg */,
+				350A1759248A51CB006B30CA /* ayame2.jpeg */,
 				354FE6C5246105D0001BE79D /* shirobara.jpg */,
 				354FE7392461094D001BE79D /* musukari2.jpg */,
 				354FE6CD246105D0001BE79D /*  jasumin.jpeg */,

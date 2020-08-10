@@ -166,7 +166,7 @@ class ViewController: UIViewController {
         
         purpleflowerArray.append(Mentor(name: "スミレ(菫)", imageName: "sumire.jpeg", course:  "「謙虚」「誠実」「貞節」「愛」", s: "4月～5月（促成品は2月ごろから）", t: "スミレは日当たりのよい草地や田畑のわき、堤防、道端などに生える多年草", mame:"花が咲いた促成株は2月ごろから出回る"))
         
-        WhiteflowerArray.append(Mentor(name: "百合(ユリ)", imageName: " jasumin.jpeg", course: "「純粋」「無垢」「純潔」「威厳」「華麗 」「虚栄心 」", s: "5月下旬～6月上旬（スカシユリ系）、6月中・下旬（テッポウユリ）、7月中・下旬（オリエンタル系）", t: "球根は外皮で覆われていないため乾燥に弱く、市販される球根はピートモスやおがくずなどに包まれている", mame:"ユリは花姿や草姿、開花期などがさまざまで、多くの園芸品種がある"))
+        WhiteflowerArray.append(Mentor(name: "百合(ユリ)", imageName: "jasumin.jpeg", course: "「純粋」「無垢」「純潔」「威厳」「華麗 」「虚栄心 」", s: "5月下旬～6月上旬（スカシユリ系）、6月中・下旬（テッポウユリ）、7月中・下旬（オリエンタル系）", t: "球根は外皮で覆われていないため乾燥に弱く、市販される球根はピートモスやおがくずなどに包まれている", mame:"ユリは花姿や草姿、開花期などがさまざまで、多くの園芸品種がある"))
         
         yellowflowerArray.append(Mentor(name: "イチョウ", imageName: "icho.jpg", course: "「荘厳」「長寿」「鎮魂」", s: "11月", t: "葉の展開と同時に花をつける", mame:" 葉は夏には鮮やかな緑色となり、晩秋に黄金色に変わって落葉する"))
         
