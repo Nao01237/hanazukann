@@ -150,114 +150,151 @@ class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
             }
             if month == "onec"{
                 colorNames = onec
+                 imageName = imageNameonec
             }
             if month == "oneg"{
                 colorNames = oneg
+                 imageName = imageNameoneg
             }
             if month == "twoj"{
                 colorNames = twoj
+                 imageName = imageNametwoj
             }
             if month == "twoc"{
                 colorNames = twoc
+                imageName = imageNametwoc
             }
             if month == "twog"{
                 colorNames = twog
+                imageName = imageNametwog
             }
             if month == "threej"{
                 colorNames = threej
+                imageName = imageNamethreej
             }
             if month == "threec"{
                 colorNames = threec
+                imageName = imageNamethreec
             }
             if month == "threeg"{
                 colorNames = threeg
+                imageName = imageNamethreeg
             }
             if month == "fourj"{
                 colorNames = fourj
+                imageName = imageNamefourj
             }
             if month == "fourc"{
                 colorNames = fourc
+                 imageName = imageNamefourc
             }
             if month == "fourg"{
                 colorNames = fourg
+                 imageName = imageNamefourg
             }
             if month == "fivej"{
                 colorNames = fivej
+                imageName = imageNamefivej
             }
             if month == "fivec"{
                 colorNames = fivec
+                imageName = imageNamefivec
             }
             if month == "fiveg"{
             colorNames = fiveg
+                imageName = imageNamefiveg
             }
             if month == "sixj"{
             colorNames = sixj
+                imageName = imageNamesixj
             }
             if month == "sixc"{
             colorNames = sixc
+                 imageName = imageNamesixc
             }
             if month == "sixg"{
             colorNames = sixg
+                 imageName = imageNamesixg
             }
             if month == "sevenj"{
             colorNames = sevenj
+                 imageName = imageNamesevenj
             }
             if month == "sevenc"{
             colorNames = sevenc
+                imageName = imageNamesevenc
             }
             if month == "seveng"{
             colorNames = seveng
+                imageName = imageNameseveng
             }
             if month == "eightj"{
             colorNames = eightj
+                imageName = imageNameeightj
             }
             if month == "eightc"{
             colorNames = eightc
+                imageName = imageNameeightc
             }
             if month == "eightg"{
             colorNames = eightg
+                imageName = imageNameeightg
             }
             if month == "ninej"{
             colorNames = ninej
+                imageName = imageNameninej
             }
             if month == "ninec"{
             colorNames = ninec
+                imageName = imageNameninec
             }
             if month == "nineg"{
             colorNames = nineg
+                imageName = imageNamenineg
             }
             if month == "tenj"{
             colorNames = tenj
+                imageName = imageNametenj
             }
             if month == "tenc"{
             colorNames = tenc
+                 imageName = imageNametenc
             }
             if month == "teng"{
             colorNames = teng
+                 imageName = imageNameteng
             }
             if month == "eievenj"{
             colorNames = eievenj
+                 imageName = imageNameeievenj
             }
             if month == "eievenc"{
             colorNames = eievenc
+                imageName = imageNameeievenc
             }
             if month == "eieveng"{
             colorNames = eieveng
+                imageName = imageNameeieveng
             }
             if month == "twelvej"{
             colorNames = twelvej
+                imageName = imageNametwelvej
             }
             if month == "twelvec"{
             colorNames = twelvec
+                imageName = imageNametwelvec
             }
             if month == "twelveg"{
             colorNames = twelveg
+                imageName = imageNametwelveg
             }
             if month == "huteiki"{
             colorNames = huteiki
+                imageName = imageNamehuteik
             }
             if month == "itinenn"{
             colorNames = itinenn
+                imageName = imageNameitinenn
             }
             
             collectionView.reloadData()

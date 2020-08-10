@@ -72,6 +72,9 @@ class SelectViewController: UIViewController {
     @IBAction func blackButton() {
         performSegue(withIdentifier: "f", sender: "black")
     }
+    @IBAction func backButton(){
+        performSegue(withIdentifier: "b", sender: nil)
+    }
     
     
     
