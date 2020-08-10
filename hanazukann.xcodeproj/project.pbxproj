@@ -10,6 +10,7 @@
 		350A175A248A51CB006B30CA /* ayame2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 350A1759248A51CB006B30CA /* ayame2.jpeg */; };
 		350A176224939493006B30CA /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A176124939493006B30CA /* ViewController0.swift */; };
 		354B74CA24DFD9F4006BC28E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354B74C924DFD9F4006BC28E /* CollectionViewCell.swift */; };
+		354B74CC24E0E1D5006BC28E /* abuchiron３.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354B74CB24E0E1D5006BC28E /* abuchiron３.jpg */; };
 		354F4FB4249CD0BB000F5409 /* sakura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FA8249CD0BA000F5409 /* sakura.jpg */; };
 		354F4FB5249CD0BB000F5409 /* furijia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FA9249CD0BA000F5409 /* furijia.jpg */; };
 		354F4FB6249CD0BB000F5409 /* daria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FAA249CD0BA000F5409 /* daria.jpg */; };
@@ -142,6 +143,7 @@
 		350A1759248A51CB006B30CA /* ayame2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ayame2.jpeg; sourceTree = "<group>"; };
 		350A176124939493006B30CA /* ViewController0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
 		354B74C924DFD9F4006BC28E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		354B74CB24E0E1D5006BC28E /* abuchiron３.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abuchiron３.jpg"; sourceTree = "<group>"; };
 		354F4FA8249CD0BA000F5409 /* sakura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sakura.jpg; sourceTree = "<group>"; };
 		354F4FA9249CD0BA000F5409 /* furijia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = furijia.jpg; sourceTree = "<group>"; };
 		354F4FAA249CD0BA000F5409 /* daria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daria.jpg; sourceTree = "<group>"; };
@@ -363,6 +365,7 @@
 			children = (
 				354FE6EF246105D0001BE79D /* sandasonia.jpeg */,
 				354FE7402461094D001BE79D /* gazania2.jpg */,
+				354B74CB24E0E1D5006BC28E /* abuchiron３.jpg */,
 				354FE6C9246105D0001BE79D /* orangebara.jpg */,
 				354FE6B3246105D0001BE79D /* orangeBack.png */,
 			);
@@ -735,6 +738,7 @@
 				354FE734246105D1001BE79D /* enishida.jpeg in Resources */,
 				354F4FBB249CD0BB000F5409 /* shimbijiumu.jpg in Resources */,
 				354FE70D246105D1001BE79D /* odontogurossamu.jpg in Resources */,
+				354B74CC24E0E1D5006BC28E /* abuchiron３.jpg in Resources */,
 				357BA11924AF42490049E16E /* 無題149_20200703193824.png in Resources */,
 				354FE722246105D1001BE79D /* yaezakura.jpeg in Resources */,
 				354FE721246105D1001BE79D /* buruberu.jpg in Resources */,
