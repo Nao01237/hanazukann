@@ -75,11 +75,11 @@ class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
     var teng = ["赤バラ","白バラ","ピンクローズ","青バラ","黄バラ","オレンジローズ","黒バラ","アマリリス（赤）","アマリリス（ピンク）","アマリリス（白）","アマリリス（黄色）","アブチロン（オレンジ）","アブチロン（ピンク）","アブチロン（赤）","スイートアリッサム","チョコレートコスモス","グリーンローズ","パープルローズ"]
     var imageNameteng = ["akabara.jpg","shirobara.jpg","pinkbara.jpg","aobara.jpeg","kibara.jpeg","orangebara.jpg","kurobara.jpeg","amaririu.jpeg","amaririsu2.jpg","amaririsu１.jpg","amaririsu3.jpg","abuchiron３.jpg","abuchiron2.jpg","abuchiron1.jpeg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","midoribara.jpg","papururozu.jpeg"]
     var eievenj = ["赤バラ","白バラ","ピンクローズ","青バラ","黄バラ","オレンジローズ","黒バラ","アブチロン（オレンジ）","アブチロン（ピンク）","アブチロン（赤）","シネラリア（紫）","スイートアリッサム","チョコレートコスモス","イチョウ","グリーンローズ","パープルローズ","シネラリア（青）","シネラリア（白）","シネラリア（ピンク）","シネラリア（黄）"]
-    var imageNameeievenj = ["akabara.jpg","shirobara.jpg","pinkbara.jpg","aobara.jpeg","kibara.jpeg","orangebara.jpg","kurobara.jpeg","abuchiron３.jpg","abuchiron2.jpg","abuchiron1.jpeg","saineria.jpg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","icho.jpg","midoribara.jpg","papururozu.jpeg","saineria１.jpeg","saineria２.jpeg","saineria３.jpeg","saineria４.jpeg",]
+    var imageNameeievenj = ["akabara.jpg","shirobara.jpg","pinkbara.jpg","aobara.jpeg","kibara.jpeg","orangebara.jpg","kurobara.jpeg","abuchiron３.jpg","abuchiron2.jpg","abuchiron1.jpeg","saineria.jpg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","icho.jpg","midoribara.jpg","papururozu.jpeg","saineria１.jpeg","saineria２.jpeg","saineria３.jpeg","saineria４.jpeg"]
     var eievenc = ["赤バラ","白バラ","ピンクローズ","青バラ","黄バラ","オレンジローズ","黒バラ","シネラリア（紫）","スイートアリッサム","チョコレートコスモス","イチョウ","グリーンローズ","パープルローズ","シネラリア（青）","シネラリア（白）","シネラリア（ピンク）","シネラリア（黄）"]
-    var imageNameeievenc = ["akabara.jpg","shirobara.jpg","pinkbara.jpg","aobara.jpeg","kibara.jpeg","orangebara.jpg","kurobara.jpeg","saineria.jpg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","icho.jpg","midoribara.jpg","papururozu.jpeg","saineria１.jpeg","saineria２.jpeg","saineria３.jpeg","saineria４.jpeg",]
+    var imageNameeievenc = ["akabara.jpg","shirobara.jpg","pinkbara.jpg","aobara.jpeg","kibara.jpeg","orangebara.jpg","kurobara.jpeg","saineria.jpg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","icho.jpg","midoribara.jpg","papururozu.jpeg","saineria１.jpeg","saineria２.jpeg","saineria３.jpeg","saineria４.jpeg"]
     var eieveng = ["赤バラ","白バラ","ピンクローズ","青バラ","黄バラ","オレンジローズ","黒バラ","シネラリア（紫）","スイートアリッサム","チョコレートコスモス","イチョウ","グリーンローズ","パープルローズ","シネラリア（青）","シネラリア（白）","シネラリア（ピンク）","シネラリア（黄）"]
-     var imageNameeieveng = ["akabara.jpg","shirobara.jpg","pinkbara.jpg","aobara.jpeg","kibara.jpeg","orangebara.jpg","kurobara.jpeg","saineria.jpg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","icho.jpg","midoribara.jpg","papururozu.jpeg","saineria１.jpeg","saineria２.jpeg","saineria３.jpeg","saineria４.jpeg",]
+     var imageNameeieveng = ["akabara.jpg","shirobara.jpg","pinkbara.jpg","aobara.jpeg","kibara.jpeg","orangebara.jpg","kurobara.jpeg","saineria.jpg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","icho.jpg","midoribara.jpg","papururozu.jpeg","saineria１.jpeg","saineria２.jpeg","saineria３.jpeg","saineria４.jpeg"]
     var twelvej = ["シネラリア（紫）","スイートアリッサム","シネラリア（青）","シネラリア（白）","シネラリア（ピンク）","シネラリア（黄）"]
      var imageNametwelvej = ["saineria.jpg","sweetaiyssum.jpg","saineria１.jpeg","saineria２.jpeg","saineria３.jpeg","saineria４.jpeg",]
     var twelvec = ["シネラリア（紫）","シネラリア（青）","シネラリア（白）","シネラリア（ピンク）","シネラリア（黄）"]
@@ -108,6 +108,7 @@ class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
             super.viewDidLoad()
             
             colorNames = onej
+            imageName = imageNameonej
             
             // Delegate設定
             pickerView.delegate = self
