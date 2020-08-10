@@ -23,7 +23,7 @@ class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
     var imageNametwoc = ["saineria.jpg","fukujuso.jpeg","sunodoroppu.jpeg","saineria１.jpeg","saineria２.jpeg","saineria３.jpeg","saineria４.jpeg",]
     var twog = ["シネラリア（紫）","スイートアリッサム","フクジュソウ","スノードロップ","シネラリア（青）","シネラリア（白）","シネラリア（ピンク）","シネラリア（黄）"]
     var imageNametwog = ["saineria.jpg","sweetaiyssum.jpg","fukujuso.jpeg","sunodoroppu.jpeg","saineria１.jpeg","saineria２.jpeg","saineria３.jpeg","saineria４.jpeg",]
-    var threej = ["ムスカリ（青）","ムスカリ（紫）","ムスカリ（白）","シネラリア（紫）","スイートアリッサム","アルメリア","フクジュソウ","スノードロップ"]
+    var threej = ["ムスカリ（青）","ムスカリ（紫）","ムスカリ（白）","シネラリア（紫）","スイートアリッサム","アルメリア","フクジュソウ","スノードロップ","シネラリア（青）","シネラリア（白）","シネラリア（ピンク）","シネラリア（黄）"]
     var imageNamethreej = ["musukari１.jpg","musukari.jpeg","musukari2.jpg","saineria.jpg","sweetaiyssum.jpg","arumeria.jpg","fukujuso.jpeg","sunodoroppu.jpeg","saineria１.jpeg","saineria２.jpeg","saineria３.jpeg","saineria４.jpeg",]
     var threec = ["ムスカリ（青）","ムスカリ（紫）","ムスカリ（白）","シネラリア（紫）","スイートアリッサム","アルメリア","フクジュソウ","スノードロップ","スノーフレーク","シネラリア（青）","シネラリア（白）","シネラリア（ピンク）","シネラリア（黄）"]
      var imageNamethreec = ["musukari１.jpg","musukari.jpeg","musukari2.jpg","saineria.jpg","sweetaiyssum.jpg","arumeria.jpg","fukujuso.jpeg","sunodoroppu.jpeg","sunofureku.jpg","saineria１.jpeg","saineria２.jpeg","saineria３.jpeg","saineria４.jpeg",]
