@@ -11,6 +11,10 @@
 		350A176224939493006B30CA /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A176124939493006B30CA /* ViewController0.swift */; };
 		354B74CA24DFD9F4006BC28E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354B74C924DFD9F4006BC28E /* CollectionViewCell.swift */; };
 		354B74CC24E0E1D5006BC28E /* abuchiron３.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354B74CB24E0E1D5006BC28E /* abuchiron３.jpg */; };
+		354B74CE24E12C85006BC28E /* saineria１.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 354B74CD24E12C85006BC28E /* saineria１.jpeg */; };
+		354B74D024E12C8B006BC28E /* saineria２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354B74CF24E12C8B006BC28E /* saineria２.jpg */; };
+		354B74D224E12CAC006BC28E /* saineria３.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 354B74D124E12CAC006BC28E /* saineria３.jpeg */; };
+		354B74D424E12CB3006BC28E /* saineria４.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354B74D324E12CB3006BC28E /* saineria４.jpg */; };
 		354F4FB4249CD0BB000F5409 /* sakura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FA8249CD0BA000F5409 /* sakura.jpg */; };
 		354F4FB5249CD0BB000F5409 /* furijia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FA9249CD0BA000F5409 /* furijia.jpg */; };
 		354F4FB6249CD0BB000F5409 /* daria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 354F4FAA249CD0BA000F5409 /* daria.jpg */; };
@@ -144,6 +148,10 @@
 		350A176124939493006B30CA /* ViewController0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
 		354B74C924DFD9F4006BC28E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		354B74CB24E0E1D5006BC28E /* abuchiron３.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abuchiron３.jpg"; sourceTree = "<group>"; };
+		354B74CD24E12C85006BC28E /* saineria１.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saineria１.jpeg"; sourceTree = "<group>"; };
+		354B74CF24E12C8B006BC28E /* saineria２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saineria２.jpg"; sourceTree = "<group>"; };
+		354B74D124E12CAC006BC28E /* saineria３.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saineria３.jpeg"; sourceTree = "<group>"; };
+		354B74D324E12CB3006BC28E /* saineria４.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "saineria４.jpg"; sourceTree = "<group>"; };
 		354F4FA8249CD0BA000F5409 /* sakura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sakura.jpg; sourceTree = "<group>"; };
 		354F4FA9249CD0BA000F5409 /* furijia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = furijia.jpg; sourceTree = "<group>"; };
 		354F4FAA249CD0BA000F5409 /* daria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daria.jpg; sourceTree = "<group>"; };
@@ -316,6 +324,7 @@
 			children = (
 				354FE6F1246105D0001BE79D /* nemofira.jpg */,
 				354FE6F3246105D0001BE79D /* aobara.jpeg */,
+				354B74CD24E12C85006BC28E /* saineria１.jpeg */,
 				354FE6B2246105D0001BE79D /* yagurumagiku.jpeg */,
 				354FE6C8246105D0001BE79D /* hisuikazura.jpeg */,
 				354FE6B5246105D0001BE79D /* blueBack.png */,
@@ -330,6 +339,7 @@
 			children = (
 				354FE6F2246105D0001BE79D /* enishida.jpeg */,
 				354FE6EA246105D0001BE79D /* kibara.jpeg */,
+				354B74D324E12CB3006BC28E /* saineria４.jpg */,
 				354FE6E1246105D0001BE79D /* hageito.jpeg */,
 				354FE6DE246105D0001BE79D /* yellowBack.png */,
 				354FE6D7246105D0001BE79D /* icho.jpg */,
@@ -348,6 +358,7 @@
 				354FE6ED246105D0001BE79D /* someiyoshino.jpeg */,
 				354FE6E0246105D0001BE79D /* yaezakura.jpeg */,
 				354FE6DB246105D0001BE79D /* shdarezakura.jpg */,
+				354B74D124E12CAC006BC28E /* saineria３.jpeg */,
 				354FE6D6246105D0001BE79D /* pinkbara.jpg */,
 				354FE6D0246105D0001BE79D /* arumeria.jpg */,
 				354FE73D2461094D001BE79D /* abuchiron2.jpg */,
@@ -406,6 +417,7 @@
 				354FE6E9246105D0001BE79D /* sunofureku.jpg */,
 				354FE6E6246105D0001BE79D /* WhiteBack.png */,
 				354FE6DC246105D0001BE79D /* fuarenopushisu・afurodeite.jpg */,
+				354B74CF24E12C8B006BC28E /* saineria２.jpg */,
 				354FE73F2461094D001BE79D /* gazania1.jpg */,
 				354FE7412461094E001BE79D /* yamaboshi.jpeg */,
 				354FE6B8246105D0001BE79D /* sweetaiyssum.jpg */,
@@ -711,7 +723,9 @@
 				354FE725246105D1001BE79D /* blackBack.png in Resources */,
 				354FE6F4246105D0001BE79D /* yagurumagiku.jpeg in Resources */,
 				357BA10D24AF3DE10049E16E /* 無題143_20200703191926.png in Resources */,
+				354B74CE24E12C85006BC28E /* saineria１.jpeg in Resources */,
 				354FE707246105D0001BE79D /* shirobara.jpg in Resources */,
+				354B74D224E12CAC006BC28E /* saineria３.jpeg in Resources */,
 				354F4FB7249CD0BB000F5409 /* poinsechia.jpg in Resources */,
 				354FE726246105D1001BE79D /* a.png in Resources */,
 				357BA11824AF42490049E16E /* 無題148_20200703193742.png in Resources */,
@@ -740,8 +754,10 @@
 				354FE70D246105D1001BE79D /* odontogurossamu.jpg in Resources */,
 				354B74CC24E0E1D5006BC28E /* abuchiron３.jpg in Resources */,
 				357BA11924AF42490049E16E /* 無題149_20200703193824.png in Resources */,
+				354B74D024E12C8B006BC28E /* saineria２.jpg in Resources */,
 				354FE722246105D1001BE79D /* yaezakura.jpeg in Resources */,
 				354FE721246105D1001BE79D /* buruberu.jpg in Resources */,
+				354B74D424E12CB3006BC28E /* saineria４.jpg in Resources */,
 				354FE75724625B28001BE79D /* gazania4.jpeg in Resources */,
 				354FE730246105D1001BE79D /* chocoiatecosmos.jpeg in Resources */,
 				354FE6FB246105D0001BE79D /* icon.png in Resources */,

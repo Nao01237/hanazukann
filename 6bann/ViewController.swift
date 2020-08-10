@@ -152,7 +152,14 @@ class ViewController: UIViewController {
         
         
         
-        purpleflowerArray.append(Mentor(name: "シネラリア", imageName: "saineria.jpg", course:  "「いつも快活」「喜び」", s: "11月～5月", t: "ガーベラに似た小輪から中輪の花を、ドーム状に密集させて咲かせる", mame:"カラフルな花をこんもりと密に咲かせる"))
+        purpleflowerArray.append(Mentor(name: "シネラリア（紫）", imageName: "saineria.jpg", course:  "「いつも快活」「喜び」", s: "11月～5月", t: "ガーベラに似た小輪から中輪の花を、ドーム状に密集させて咲かせる", mame:"カラフルな花をこんもりと密に咲かせる"))
+        blueflowerArray.append(Mentor(name: "シネラリア", imageName: "saineria１.jpeg", course:  "「いつも快活」「喜び」", s: "11月～5月", t: "ガーベラに似た小輪から中輪の花を、ドーム状に密集させて咲かせる", mame:"カラフルな花をこんもりと密に咲かせる"))
+        WhiteflowerArray.append(Mentor(name: "シネラリア", imageName: "saineria２.jpeg", course:  "「いつも快活」「喜び」", s: "11月～5月", t: "ガーベラに似た小輪から中輪の花を、ドーム状に密集させて咲かせる", mame:"カラフルな花をこんもりと密に咲かせる"))
+        pinkflowerArray.append(Mentor(name: "シネラリア", imageName: "saineria３.jpeg", course:  "「いつも快活」「喜び」", s: "11月～5月", t: "ガーベラに似た小輪から中輪の花を、ドーム状に密集させて咲かせる", mame:"カラフルな花をこんもりと密に咲かせる"))
+        yellowflowerArray.append(Mentor(name: "シネラリア", imageName: "saineria４.jpeg", course:  "「いつも快活」「喜び」", s: "11月～5月", t: "ガーベラに似た小輪から中輪の花を、ドーム状に密集させて咲かせる", mame:"カラフルな花をこんもりと密に咲かせる"))
+        
+        
+        
         
         WhiteflowerArray.append(Mentor(name: "スイートアリッサム", imageName: "sweetaiyssum.jpg", course: "「価値あるもの」", s: "2月下旬～6月上旬、9月下旬～12月上旬", t: "本来は多年草ですが、高温多湿に弱く、日本では一年草として扱われる", mame:"ほんのりと甘い香りがある"))
         
