@@ -20,8 +20,8 @@ class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
     var imageNametwoj = ["saineria.jpg","fukujuso.jpeg","sunodoroppu.jpeg"]
     var twoc = ["シネラリア","フクジュソウ","スノードロップ"]
     var imageNametwoc = ["saineria.jpg","fukujuso.jpeg","sunodoroppu.jpeg"]
-    var twog = ["シネラリア","スイートアリッサム","フクジュソウ"]
-    var imageNametwog = ["saineria.jpg","fukujuso.jpeg","sunodoroppu.jpeg"]
+    var twog = ["シネラリア","スイートアリッサム","フクジュソウ","スノードロップ"]
+    var imageNametwog = ["saineria.jpg","sweetaiyssum.jpg","fukujuso.jpeg","sunodoroppu.jpeg"]
     var threej = ["ムスカリ（青）","ムスカリ（紫）","ムスカリ（白）","シネラリア","スイートアリッサム","アルメリア","フクジュソウ","スノードロップ"]
     var imageNamethreej = ["musukari１.jpg","musukari.jpeg","musukari2.jpg","saineria.jpg","sweetaiyssum.jpg","arumeria.jpg","fukujuso.jpeg","sunodoroppu.jpeg"]
     var threec = ["ムスカリ（青）","ムスカリ（紫）","ムスカリ（白）","シネラリア","スイートアリッサム","アルメリア","フクジュソウ","スノードロップ","スノーフレーク",]
@@ -63,20 +63,33 @@ class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
     var ninec = ["ブルースター","ガザニア（黄）","ガザニア（白）","ガザニア（オレンジ）","ガザニア（ピンク）","ガザニア（赤）","アブチロン（オレンジ）","アブチロン（ピンク）","アブチロン（赤）","チョコレートコスモス","ひまわり(向日葵)","彼岸花","","","","","","",]
     var imageNameninec = ["bluestar.jpg","gazania.jpg","gazania1.jpg","gazania2.jpg","gazania3.jpg","gazania4.jpeg","abuchiron３.jpg","abuchiron2.jpg","abuchiron1.jpeg","chocoiatecosmos.jpeg","himawari.jpg","higambana.jpg"]
     var nineg = ["ブルースター","ガザニア（黄）","ガザニア（白）","ガザニア（オレンジ）","ガザニア（ピンク）","ガザニア（赤）","アブチロン（オレンジ）","アブチロン（ピンク）","アブチロン（赤）","スイートアリッサム","チョコレートコスモス","ひまわり(向日葵)","彼岸花","","","","","",]
-    var imageNamenineg = ["bluestar.jpg","gazania.jpg","gazania1.jpg","gazania2.jpg","gazania3.jpg","gazania4.jpeg","abuchiron３.jpg","abuchiron2.jpg","abuchiron1.jpeg","chocoiatecosmos.jpeg","himawari.jpg","higambana.jpg"]
+    var imageNamenineg = ["bluestar.jpg","gazania.jpg","gazania1.jpg","gazania2.jpg","gazania3.jpg","gazania4.jpeg","abuchiron３.jpg","abuchiron2.jpg","abuchiron1.jpeg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","himawari.jpg","higambana.jpg"]
     
     
     var tenj = ["アマリリス（赤）","アマリリス（ピンク）","アマリリス（白）","アマリリス（黄色）","ブルースター","ガザニア（黄）","ガザニア（白）","ガザニア（オレンジ）","ガザニア（ピンク）","ガザニア（赤）","アブチロン（オレンジ）","アブチロン（ピンク）","アブチロン（赤）","スイートアリッサム","チョコレートコスモス","彼岸花","","","","","","","",]
+    var imageNametenj = ["amaririu.jpeg","amaririsu2.jpg","amaririsu１.jpg","amaririsu3.jpg","bluestar.jpg","gazania.jpg","gazania1.jpg","gazania2.jpg","gazania3.jpg","gazania4.jpeg","abuchiron３.jpg","abuchiron2.jpg","abuchiron1.jpeg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","himawari.jpg"]
     var tenc = ["赤バラ","白バラ","ピンクローズ","青バラ","黄バラ","オレンジローズ","黒バラ","アマリリス（赤）","アマリリス（ピンク）","アマリリス（白）","アマリリス（黄色）","アブチロン（オレンジ）","アブチロン（ピンク）","アブチロン（赤）","スイートアリッサム","チョコレートコスモス","グリーンローズ","パープルローズ","彼岸花","","","","","","",]
+     var imageNametenc = ["akabara.jpg","shirobara.jpg","pinkbara.jpg","aobara.jpeg","kibara.jpeg","orangebara.jpg","kurobara.jpeg","amaririu.jpeg","amaririsu2.jpg","amaririsu１.jpg","amaririsu3.jpg","abuchiron３.jpg","abuchiron2.jpg","abuchiron1.jpeg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","midoribara.jpg","papururozu.jpeg","higambana.jpg"]
+    
     var teng = ["赤バラ","白バラ","ピンクローズ","青バラ","黄バラ","オレンジローズ","黒バラ","アマリリス（赤）","アマリリス（ピンク）","アマリリス（白）","アマリリス（黄色）","アブチロン（オレンジ）","アブチロン（ピンク）","アブチロン（赤）","スイートアリッサム","チョコレートコスモス","グリーンローズ","パープルローズ","",""]
+    var imageNameteng = ["akabara.jpg","shirobara.jpg","pinkbara.jpg","aobara.jpeg","kibara.jpeg","orangebara.jpg","kurobara.jpeg","amaririu.jpeg","amaririsu2.jpg","amaririsu１.jpg","amaririsu3.jpg","abuchiron３.jpg","abuchiron2.jpg","abuchiron1.jpeg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","midoribara.jpg","papururozu.jpeg"]
     var eievenj = ["赤バラ","白バラ","ピンクローズ","青バラ","黄バラ","オレンジローズ","黒バラ","アブチロン（オレンジ）","アブチロン（ピンク）","アブチロン（赤）","シネラリア","スイートアリッサム","チョコレートコスモス","イチョウ","グリーンローズ","パープルローズ","","","","",]
+    var imageNameeievenj = ["akabara.jpg","shirobara.jpg","pinkbara.jpg","aobara.jpeg","kibara.jpeg","orangebara.jpg","kurobara.jpeg","abuchiron３.jpg","abuchiron2.jpg","abuchiron1.jpeg","saineria.jpg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","icho.jpg","midoribara.jpg","papururozu.jpeg"]
     var eievenc = ["赤バラ","白バラ","ピンクローズ","青バラ","黄バラ","オレンジローズ","黒バラ","シネラリア","スイートアリッサム","チョコレートコスモス","イチョウ","グリーンローズ","パープルローズ","","","","",]
+    var imageNameeievenc = ["akabara.jpg","shirobara.jpg","pinkbara.jpg","aobara.jpeg","kibara.jpeg","orangebara.jpg","kurobara.jpeg","saineria.jpg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","icho.jpg","midoribara.jpg","papururozu.jpeg"]
     var eieveng = ["赤バラ","白バラ","ピンクローズ","青バラ","黄バラ","オレンジローズ","黒バラ","シネラリア","スイートアリッサム","チョコレートコスモス","イチョウ","グリーンローズ","パープルローズ","","","","",]
+     var imageNameeieveng = ["akabara.jpg","shirobara.jpg","pinkbara.jpg","aobara.jpeg","kibara.jpeg","orangebara.jpg","kurobara.jpeg","saineria.jpg","sweetaiyssum.jpg","chocoiatecosmos.jpeg","icho.jpg","midoribara.jpg","papururozu.jpeg"]
     var twelvej = ["シネラリア","スイートアリッサム","","","",]
+     var imageNametwelvej = ["saineria.jpg","sweetaiyssum.jpg"]
     var twelvec = ["シネラリア","","","","",]
+    var imageNametwelvec = ["saineria.jpg"]
     var twelveg = ["シネラリア","","","","",]
+    var imageNametwelveg = ["saineria.jpg"]
     var huteiki = ["ファレノプシス（胡蝶蘭）","","","","",]
+    var imageNamehuteik = ["fuarenopushisu・afurodeite.jpg"]
     var itinenn = ["ハゲイトウ","","","","",]
+    var imageNameitinenn = ["hageito.jpeg"]
+  
     
     
     
