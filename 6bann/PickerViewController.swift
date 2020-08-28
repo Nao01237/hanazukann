@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource , UICollectionViewDataSource{
+class PickerViewControoler: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource , UICollectionViewDataSource{
     @IBOutlet var label: UILabel!
     var month: String!
     var onej = ["シネラリア（紫）","シネラリア（青）","シネラリア（白）","シネラリア（ピンク）","シネラリア（黄）"]
@@ -92,13 +92,13 @@ class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
     var imageNameitinenn = ["hageito.jpeg"]
   
     
-    
-    
-    
-    
-        
     @IBOutlet var pickerView: UIPickerView!
     @IBOutlet var collectionView: UICollectionView!
+    
+    @IBAction func modoru() {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
         // たくさん卒業してしまった...
     let dataList = ["１月上旬","１月中旬","１月下旬","2月上旬","2月中旬","2月下旬","3月上旬","3月中旬","3月下旬","4月上旬","4月中旬","4月下旬","5月上旬","5月中旬","5月下旬","6月上旬","6月中旬","6月下旬","7月上旬","7月中旬","7月下旬","8月上旬","8月中旬","8月下旬","9月上旬","9月中旬","9月下旬","10月上旬","10月中旬","10月下旬",
         "11月上旬","11月中旬","11月下旬","12月上旬","12月中旬","12月下旬","不定期","一年草"]
@@ -342,7 +342,7 @@ class PickerView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
     //            }
         }
 
-    extension PickerView: UICollectionViewDelegateFlowLayout {
+    extension PickerViewControoler: UICollectionViewDelegateFlowLayout {
 
         func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
             // 例えば端末サイズの半分の width と height にして 2 列にする場合

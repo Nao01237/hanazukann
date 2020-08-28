@@ -14,14 +14,14 @@
             <objects>
                 <viewController id="poH-2P-zj5" customClass="ViewController0" customModule="花図鑑" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pit-WN-Tyn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Two-Np-Prh">
-                                <rect key="frame" x="0.0" y="-44" width="414" height="886"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="無題98_20200117192732.png" translatesAutoresizingMaskIntoConstraints="NO" id="WJO-3U-nrp">
-                                        <rect key="frame" x="22" y="283" width="370" height="320"/>
+                                        <rect key="frame" x="22" y="288" width="370" height="320"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題145_20200703192504.png" translatesAutoresizingMaskIntoConstraints="NO" id="11V-Wt-sU0">
                                         <rect key="frame" x="259" y="178" width="109" height="107"/>
@@ -48,20 +48,20 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="無題143_20200703191926.png" translatesAutoresizingMaskIntoConstraints="NO" id="lWv-ig-OcZ">
-                                        <rect key="frame" x="142" y="674" width="366" height="210"/>
+                                        <rect key="frame" x="142" y="684" width="366" height="210"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="366" id="ifk-xJ-16C"/>
                                             <constraint firstAttribute="height" constant="210" id="x1E-Dd-W7G"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="花図鑑" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nR8-uc-jgK">
-                                        <rect key="frame" x="142.5" y="208" width="129" height="57"/>
+                                        <rect key="frame" x="142.5" y="213" width="129" height="57"/>
                                         <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="43"/>
                                         <color key="textColor" red="0.86207461760000004" green="0.5807206224" blue="0.50907046369999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsh-lU-hmN">
-                                        <rect key="frame" x="169" y="687" width="76" height="43"/>
+                                        <rect key="frame" x="169" y="697" width="76" height="43"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="19"/>
                                         <state key="normal" title="色で探す">
                                             <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -71,7 +71,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gh-l2-4EU">
-                                        <rect key="frame" x="298" y="767" width="56" height="34"/>
+                                        <rect key="frame" x="298" y="777" width="56" height="34"/>
                                         <state key="normal" title="誕生花">
                                             <color key="titleColor" red="0.2788023744" green="0.37394737360000002" blue="0.98534387349999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
@@ -366,14 +366,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SbP-PI-T5A">
-                                <rect key="frame" x="60" y="803" width="46" height="30"/>
+                                <rect key="frame" x="12" y="797" width="124" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="戻る">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="backButton" destination="YIc-HC-CSV" eventType="touchUpInside" id="r5d-gs-Rzn"/>
                                     <segue destination="poH-2P-zj5" kind="presentation" identifier="b" modalPresentationStyle="fullScreen" id="pIs-Pi-Ba1"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題148_20200703193742.png" translatesAutoresizingMaskIntoConstraints="NO" id="cF3-uC-Kbb">
+                                <rect key="frame" x="180" y="661" width="417" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.47591265119999998" green="1" blue="0.88951155510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.092769085552687924" green="1" blue="0.96485193134581981" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -404,12 +411,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zg-2c-tTr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-955" y="117"/>
+            <point key="canvasLocation" x="-955.07246376811599" y="116.51785714285714"/>
         </scene>
-        <!--Picker View-->
+        <!--Picker View Controoler-->
         <scene sceneID="9lH-6s-Oqv">
             <objects>
-                <viewController id="ArW-Cx-Gdr" customClass="PickerView" customModule="花図鑑" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ArW-Cx-Gdr" customClass="PickerViewControoler" customModule="花図鑑" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mqR-LH-rUm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -449,6 +456,7 @@
                                                 </imageView>
                                             </subviews>
                                         </collectionViewCellContentView>
+                                        <color key="backgroundColor" red="0.69944204860000003" green="0.98806947469999995" blue="0.72116174209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <size key="customSize" width="196" height="190"/>
                                         <connections>
                                             <outlet property="imageView" destination="Yxn-Wh-4uy" id="zAd-Gb-QWp"/>
@@ -465,13 +473,21 @@
                                 <rect key="frame" x="20" y="44" width="64" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="もどる">
+                                <state key="normal" title="戻る">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="poH-2P-zj5" kind="show" id="7l7-kt-BLx"/>
+                                    <action selector="modoru" destination="ArW-Cx-Gdr" eventType="touchUpInside" id="CJB-4G-l6i"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題148_20200703193742.png" translatesAutoresizingMaskIntoConstraints="NO" id="fQU-Gu-pC0">
+                                <rect key="frame" x="204" y="29" width="369" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題147_20200703193255.png" translatesAutoresizingMaskIntoConstraints="NO" id="TgV-kF-n5H">
+                                <rect key="frame" x="-87" y="44" width="295" height="229"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.47591265119999998" green="1" blue="0.88951155510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="dwx-rr-qxa"/>
@@ -702,9 +718,6 @@
             <point key="canvasLocation" x="-104" y="117"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="7l7-kt-BLx"/>
-    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.87249649539999996" green="0.96876795419999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <image name="WhiteBack.png" width="1200" height="799"/>
