@@ -373,8 +373,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="backButton" destination="YIc-HC-CSV" eventType="touchUpInside" id="r5d-gs-Rzn"/>
-                                    <segue destination="poH-2P-zj5" kind="presentation" identifier="b" modalPresentationStyle="fullScreen" id="pIs-Pi-Ba1"/>
+                                    <action selector="modoru" destination="YIc-HC-CSV" eventType="touchUpInside" id="maK-2K-AUh"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題148_20200703193742.png" translatesAutoresizingMaskIntoConstraints="NO" id="cF3-uC-Kbb">

@@ -72,20 +72,20 @@ class SelectViewController: UIViewController {
     @IBAction func blackButton() {
         performSegue(withIdentifier: "f", sender: "black")
     }
-    @IBAction func backButton(){
-        performSegue(withIdentifier: "b", sender: nil)
-    }
-    
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let viewController = segue.destination as! ViewController
         viewController.flowerColor = (sender as! String)
     }
     
+
+   @IBAction func modoru() {
+       self.dismiss(animated: true, completion: nil)
+   }
+   
+
+
+
+
+
 }
-
-
-
-
-

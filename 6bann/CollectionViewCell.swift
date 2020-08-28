@@ -14,14 +14,14 @@ class CollectionViewCell: UICollectionViewCell {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-
         
-            self.layer.borderWidth = 1.0
         
-        self.layer.borderColor = UIColor.black.cgColor
+        self.layer.borderWidth = 1.0
         
-            self.layer.cornerRadius = 30.0
-
+        self.layer.borderColor = UIColor(red: 103/255, green: 177/255, blue: 227/255, alpha: 1).cgColor
+        
+        self.layer.cornerRadius = 30.0
+        
         
     }
 }
